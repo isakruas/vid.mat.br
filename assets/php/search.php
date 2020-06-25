@@ -262,6 +262,16 @@
 									});
 								}
 
+
+									System.Ajax.Get({
+										url:"https://"+window.location.hostname+"/git.php",
+										data:"",
+										success:function(rtn){
+											console.log(rtn);
+										}
+									});
+
+
 							</script>
 
 						<section id="search" class="alt">
