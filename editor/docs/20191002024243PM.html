@@ -1,0 +1,47 @@
+					$a_n=\dfrac{(\ln n)^k}{n},\;k\;\in\;N.$
+					<br/><br/> 
+					1º modo.<br/><br/> 
+					$i)$ Para $k=0,$ temos:<br/>
+					<br/>$\displaystyle\lim_{n\rightarrow \infty} \frac{(\ln  n)^0}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{1}{n}=\dfrac{1}{\infty}=0$<br/><br/>
+					
+					
+					$ii)$ Para $k=1,$ temos:
+					<br/>$\displaystyle\lim_{n\rightarrow \infty} \frac{(\ln n)^1}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{\ln n}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{\frac{1}{n}}{1}=\displaystyle\lim_{n\rightarrow \infty} \frac{1}{n}=\dfrac{1}{\infty}=0$<br/><br/>
+					
+					$iii)$ Para $k=2,$ temos:
+					<br/>$\displaystyle\lim_{n\rightarrow \infty} \frac{(\ln n)^2}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{2(\ln n)\cdot\frac{1}{n}}{1}=\displaystyle\lim_{n\rightarrow \infty} \frac{2\;\ln n}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{2\cdot\frac{1}{n}}{1}=\displaystyle\lim_{n\rightarrow \infty} 2\cdot\frac{1}{n}=\dfrac{2}{\infty}=0$
+<br/><br/>					$iv)$ Fazendo a generalizaçâo para $K=P$, temos: <br/>  <br/> 
+					$\displaystyle\lim_{n\rightarrow \infty} \frac{(\ln n)^p}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{p\cdot(\ln n)^{p-1}}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{p\cdot(p-1)\cdot(\ln n)^{p-2}}{n}=\cdots=$<br/><br/>$
+				 	
+					=\displaystyle\lim_{n\rightarrow \infty} p\cdot(p-1)\cdot(\ln n)^{p-2}\cdots\frac{1}{n}=K!\cdot0=0.$<br/><br/>
+									Logo, conclui-se que a sequencia $a_n$ converge para $0$. <br/><br/> 
+
+				2º modo.<br/><br/>
+									Por hipotese consideramos que o $\displaystyle\lim_{u\rightarrow \infty} \frac{(\ln u)^p}{u}=0;\;u\;$ e $p\;\in\;N.$ Assim, usando o Princinpio de Induçâo Finita sobre $p$, temos:<br/><br/>
+					
+					$i)$ Para o primeiros sendo $k=0,$ temos:<br/>
+					$\displaystyle\lim_{n\rightarrow \infty} \frac{(\ln n)^0}{n}=\displaystyle\lim_{n\rightarrow \infty} \frac{1}{n}=\dfrac{1}{\infty}=0.\;$  Afirmaçâo Ã© verdadeira para o primeiro.<br/><br/>
+					
+					$ii)$ Suponhamos que tambem seja verdade para todo $p=k.\;$ Vamos provar para $p=k 1\;$ que o limite Ã© igual a zero.<br/><br/>
+					
+					Logo:<br/>
+					
+				
+					$\displaystyle\lim_{u\rightarrow \infty} \frac{(\ln u)^{k 1}}{u}= \displaystyle\lim_{u\rightarrow \infty}\left[ (k 1)\cdot \frac{(\ln u)^{k 1-1}\cdot\frac{1}{u}}{1}\right] =\displaystyle\lim_{u\rightarrow \infty}\left[ (k 1)\cdot \frac{(\ln u)^{k}}{u}\right]= $<br/><br/>
+									$=\displaystyle\lim_{u\rightarrow \infty}\left[ k\cdot \frac{(\ln u)^{k}}{u}\;  \; \frac{(\ln u)^{k}}{u}\right]\;(\ast) $<br/><br/>
+									Por hipotese a sequencia  $a_u=\frac{\left[ \ln u\right] ^p}{u}$ Ã© convergente. Assim, podemos utilizar as seguintes propriedades:<br/><br/>
+										$I)\;\displaystyle\lim_{u\rightarrow \infty}\left( a_n b_n\right)=\displaystyle\lim_{u\rightarrow \infty}\left( a_n\right)\; \;\displaystyle\lim_{u\rightarrow \infty}\left( b_n\right). $<br/><br/>
+
+					$II)\;\displaystyle\lim_{u\rightarrow \infty}\left( k\cdot a_n\right)= k\cdot \displaystyle\lim_{u\rightarrow \infty}\left( a_n\right)$<br/><br/>
+
+					$(\ast)$<br/><br/>
+
+					$I)\;\displaystyle\lim_{u\rightarrow \infty}\left[ k\cdot \frac{(\ln u)^{k}}{u}\;  \; \frac{(\ln u)^{k}}{u}\right]=\displaystyle\lim_{u\rightarrow \infty}\left[ k\cdot \frac{(\ln u)^{k}}{u}\right]  
+\displaystyle\lim_{u\rightarrow \infty}\left[ \frac{(\ln u)^{k}}{u}\right]} .$ HI <br/><br/>
+
+					$II)\;\displaystyle\lim_{u\rightarrow \infty}\left[ k\cdot \frac{(\ln u)^{k}}{u}\right]=k\cdot \displaystyle\lim_{u\rightarrow \infty\left[ \frac{(\ln u)^{k}}{u}\right]}=k\cdot0=0$<br/><br/>
+					
+					Portanto, pelo PrincÃ­pio de Indução Finita o $\displaystyle\lim_{u\rightarrow \infty}\left[ \frac{(\ln u)^{k}}{u}\right]=0$; para todo $p\;\in\;N.$ Concluindo que a sequencia $a_n$  convergente.
+<br/>
+ <br/>
+
