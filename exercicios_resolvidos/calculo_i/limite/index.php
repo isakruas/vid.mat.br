@@ -138,11 +138,15 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
-			                                (a) Rascunho: $\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\varepsilon\Rightarrow |x-1|<\frac{2\varepsilon}{5}$
+			                                (a) Rascunho: $\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\varepsilon\Rightarrow |x-1|<\frac{2\varepsilon}{5}\Rightarrow \delta=\frac{2\varepsilon}{5}.$
 			                                <br />
-			                                Resposta: Seja $\varepsilon>0$ dado e $f(x)=\frac{5x+3}{2}$. Temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-1|<\delta$, então $|f(x)-4|<\varepsilon$. Para isto, basta tomar $\delta=\frac{2\varepsilon}{5}$. De fato, $$\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\frac{5}{2}\cdot \frac{2\varepsilon}{5}=\varepsilon.$$
+			                                Resposta: Considere $f(x)=\frac{5x+3}{2}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-1|<\delta$, então $|f(x)-4|<\varepsilon$. Para isto, basta tomar $\delta=\frac{2\varepsilon}{5}$. De fato, $$\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\frac{5}{2}\cdot \frac{2\varepsilon}{5}=\varepsilon.$$
 			                                <br /><br />
-			                                (b) 
+			                                (b) Rascunho: $\left| \frac{x^2+x-6}{x-2}-5\right|=\left| \frac{x^2-4x+4}{x-2}\right|=|x-2|<\varepsilon\Rightarrow \delta=\varepsilon.$
+			                                <br />
+			                                Resposta: Considere $f(x)=\frac{x^2+x-6}{x-2}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-2|<\delta$, então $|f(x)-5|<\varepsilon$. Para isto, basta tomar $\delta=\varepsilon$. De fato, $$\left| \frac{x^2+x-6}{x-2}-5\right|=\left| \frac{x^2-4x+4}{x-2}\right|=|x-2|<\delta=\varepsilon.$$
+			                                <br /><br />
+			                                (c) Rascunho: $|x^2-7-(-3)|=|x^2-4|=|x+2|\cdot|x-2|\;(*)$. Como $x$ tende a $-2$, podemos supor que a distância de $x$ a $-2$ é menor que $1$, ou seja, $|x-(-2)|<1$. Assim, $|x+2|<1\Rightarrow |x-2|=|x+2-4|\leq |x+2|+|-4|<1+4=5\Rightarrow |x-2|<5\;(**)$. Substituindo $(**)$ em $(*)$: $|x^2-7-(-3)|=|x+2|\cdot|x-2|<|x+2|\cdot5<\varepsilon\Rightarrow |x+2|<\frac{\varepsilon}{5}\Rightarrow \delta=\min \left\{1,\frac{\varepsilon}{5} \right\}.$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
