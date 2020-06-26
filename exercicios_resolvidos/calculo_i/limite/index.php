@@ -140,7 +140,7 @@
 			                                <br />
 			                                (a) Rascunho: $\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\varepsilon\Rightarrow |x-1|<\frac{2\varepsilon}{5}$
 			                                <br />
-			                                Resposta: Seja $\varepsilon>0$ dado e $f(x)=\frac{5x+3}{2}$. Temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-1|<\delta$, então $|f(x)-4|<\varepsilon$. Para isto, basta tomar $\delta=\frac{2\varepsilon}{5}$. De fato, $$\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\frac{5}{2}\cdot \frac{2\varepsilon}{5}<\varepsilon.$$
+			                                Resposta: Seja $\varepsilon>0$ dado e $f(x)=\frac{5x+3}{2}$. Temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-1|<\delta$, então $|f(x)-4|<\varepsilon$. Para isto, basta tomar $\delta=\frac{2\varepsilon}{5}$. De fato, $$\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\frac{5}{2}\cdot \frac{2\varepsilon}{5}=\varepsilon.$$
 			                                <br /><br />
 			                                (b) 
 			                            </p>
