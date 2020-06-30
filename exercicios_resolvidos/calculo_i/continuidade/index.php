@@ -81,7 +81,7 @@
 
 			                            <!-- 2 -->
 			                            <p id="q_2_p">
-			                                2. Para quais valores da constante $c$ a função $f(x)=\left{\begin{matrix} cx^2+2x & \textrm{se} & x<2 \\ x^3-cx & \textrm{se} & x\geq2 \end{matrix}\right.$ é contínua em $(-\infty,\infty)$?
+			                                2. Para quais valores da constante $c$ a função $f(x)=\left\{\begin{matrix} cx^2+2x & \textrm{se} & x<2 \\ x^3-cx & \textrm{se} & x\geq2 \end{matrix}\right.$ é contínua em $(-\infty,\infty)$?
 			                            </p>
 			                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
