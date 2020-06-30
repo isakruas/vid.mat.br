@@ -43,32 +43,42 @@
 								<section>
 									<header class="major">
 										<h2>Cálculo Diferencial e Integral I</h2>
-									</header>
-									<div class="posts">
+										</header>
+										<div class="posts">
 
-										<article>
+											<article>
+											<h3>Limite</h3>
+											<p></p>
+											<ul class="actions">
+											<li><a href="limite/" class="button">Abrir</a></li>
+											</ul>
+											</article>
+
+											<article>
+											<h3>Continuidade</h3>
+											<p></p>
+											<ul class="actions">
+											<li><a href="continuidade/" class="button">Abrir</a></li>
+											</ul>
+											</article>
+
+											<article>
 											<h3>Derivada</h3>
 											<p></p>
 											<ul class="actions">
 											<li><a href="derivada/" class="button">Abrir</a></li>
 											</ul>
-										</article>
+											</article>
 
-										<article>
+											<article>
 											<h3>Integral</h3>
 											<p></p>
 											<ul class="actions">
 											<li><a href="integral/" class="button">Abrir</a></li>
 											</ul>
-										</article>
+											</article>
 
-										<article>
-											<h3>Limite e Continuidade</h3>
-											<p></p>
-											<ul class="actions">
-											<li><a href="limite/" class="button">Abrir</a></li>
-											</ul>
-										</article>
+										
 									</div>
 								</section>
 

@@ -48,25 +48,13 @@
 							<!-- Content -->
 								<section>
 
-									<h2>Limite</h2>
+									<h2>Continuidade</h2>
 
 									<hr class="major" />
 
 		                            <!-- 1 -->
 		                            <p id="q_1_p">
-		                                1. Calcule, se existirem, os seguintes limites.
-		                                <br />
-		                                (a) $\displaystyle\lim_{x\to-1} 3x^4-7x^3+x^2-x-5$
-		                                <br />
-		                                (b) $\displaystyle\lim_{x\to3} \frac{\sqrt{1+x}-2}{x-3}$
-		                                <br />
-		                                (c) $\displaystyle\lim_{x\to0} x^2\cos \left(\frac{5}{x}\right)$
-		                                <br />
-		                                (d) $\displaystyle\lim_{x\to-4} \frac{\frac{1}{4}+\frac{1}{x}}{4+x}$
-		                                <br />
-		                                (e) $\displaystyle\lim_{x\to2} \frac{x^4-16}{8-x^3}$
-		                                <br />
-		                                (f) $\displaystyle\lim_{x\to0} \frac{1}{x}-\frac{1}{|x|}$
+		                                1. Use a definição da continuidade e propriedades de limites para mostrar que a função $f(x)=\frac{2x+3}{x-2}$ é contínua no intervalo $(2,\infty)$.
 
 		                            </p>
 		                            <!-- Resposta -->
@@ -93,7 +81,7 @@
 
 			                            <!-- 2 -->
 			                            <p id="q_2_p">
-			                                2. Seja a função $f$ definida por $$f(x)=\left\{\begin{matrix} \frac{x^2-3x+2}{x-1} & \textrm{se} & x\neq1 \\ 3 & \textrm{se} & x=1 \end{matrix}\right.$$ Calcule $\displaystyle\lim_{x\to1} f(x)$.
+			                                2. Para quais valores da constante $c$ a função $f(x)=\left{\begin{matrix} cx^2+2x & \textrm{se} & x<2 \\ x^3-cx & \textrm{se} & x\geq2 \end{matrix}\right.$ é contínua em $(-\infty,\infty)$?
 			                            </p>
 			                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
@@ -121,15 +109,7 @@
 
 			                            <!-- 3 -->
 			                            <p id="q_3_p">
-			                                3. Demonstre as afirmações usando a definição formal de limite.
-			                                <br />
-			                                (a) $\displaystyle\lim_{x\to1} \frac{5x+3}{2}=4$
-			                                <br />
-			                                (b) $\displaystyle\lim_{x\to2} \frac{x^2+x-6}{x-2}=5$
-			                                <br />
-			                                (c) $\displaystyle\lim_{x\to-2} x^2-7=-3$
-			                                <br />
-			                                (d) $\displaystyle\lim_{x\to3} \frac{1}{x}=\frac{1}{3}$
+			                                3. Toda função contínua é diferenciável? Toda função diferenciável é contínua?
 			                            </p>
 			                            <!-- Resposta -->
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
@@ -138,23 +118,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
-			                                (a) Rascunho: $\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\varepsilon\Rightarrow |x-1|<\frac{2\varepsilon}{5}\Rightarrow \delta=\frac{2\varepsilon}{5}.$
-			                                <br />
-			                                Resposta: Considere $f(x)=\frac{5x+3}{2}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-1|<\delta$, então $|f(x)-4|<\varepsilon$. Para isto, basta tomar $\delta=\frac{2\varepsilon}{5}$. De fato, $$\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\frac{5}{2}\cdot \frac{2\varepsilon}{5}=\varepsilon.$$
-			                                <br /><br />
-			                                (b) Rascunho: $\left| \frac{x^2+x-6}{x-2}-5\right|=\left| \frac{x^2-4x+4}{x-2}\right|=|x-2|<\varepsilon\Rightarrow \delta=\varepsilon.$
-			                                <br />
-			                                Resposta: Considere $f(x)=\frac{x^2+x-6}{x-2}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-2|<\delta$, então $|f(x)-5|<\varepsilon$. Para isto, basta tomar $\delta=\varepsilon$. De fato, $$\left| \frac{x^2+x-6}{x-2}-5\right|=\left| \frac{x^2-4x+4}{x-2}\right|=|x-2|<\delta=\varepsilon.$$
-			                                <br /><br />
-			                                (c) Rascunho: $|x^2-7-(-3)|=|x^2-4|=|x+2|\cdot|x-2|\;(*)$. Como $x$ tende a $-2$, podemos supor que a distância de $x$ a $-2$ é menor que $1$, ou seja, $|x-(-2)|<1$. Assim, $|x+2|<1\Rightarrow |x-2|=|x+2-4|\leq |x+2|+|-4|<1+4=5\Rightarrow |x-2|<5\;(**)$. Substituindo $(**)$ em $(*)$: $|x^2-7-(-3)|=|x+2|\cdot|x-2|<|x+2|\cdot5<\varepsilon\Rightarrow |x+2|<\frac{\varepsilon}{5}\Rightarrow \delta=\min \left\{1,\frac{\varepsilon}{5} \right\}.$
-			                                <br />
-			                                Resposta: Considere $f(x)=x^2-7$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-(-2)|<\delta$, então $|f(x)-(-3)|<\varepsilon$. Para isto, basta tomar $\delta=\min \left\{1,\frac{\varepsilon}{5} \right\}$. Observe inicialmente que se $\delta=\min \left\{1,\frac{\varepsilon}{5} \right\}$, então $\delta
-			                                \leq1$ e $\delta\leq\frac{\varepsilon}{5}$. Desta primeira condição, $|x-2|<5$ e, utilizando a segunda, temos $$|x^2-7-(-3)|=|x^2-4|=|x+2|\cdot|x-2|<\delta\cdot 5<\frac{\varepsilon}{5}\cdot 5=\varepsilon.$$
-			                                <br /><br />
-			                                (d) Rascunho: $\left| \frac{1}{x}-\frac{1}{3}\right|=\left| \frac{3-x}{3x}\right|=\frac{|x-3|}{3|x|}\;(*)$. Como $x$ tende a $3$, podemos supor que a distância de $x$ a $3$ é menor que $1$, ou seja, $|x-3|<1$. Logo, $3=|3|=|3-x+x|\leq |3-x|+|x|=|x-3|+|x|<1+|x|\Rightarrow |x|>2\Rightarrow \frac{1}{|x|}<\frac{1}{2}\;(**)$. Substituindo $(**)$ em $(*)$: $\left| \frac{1}{x}-\frac{1}{3}\right|= \frac{|x-3|}{3|x|}<\frac{|x-3|}{3\cdot 2}=\frac{|x-3|}{6}<\varepsilon\Rightarrow |x-3|<6\varepsilon\Rightarrow \delta=\min \left\{1,6\varepsilon \right\}.$
-			                                <br />
-			                                Resposta: Considere $f(x)=\frac{1}{x}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-3|<\delta$, então $\left|\frac{1}{x}-\frac{1}{3}\right|<\varepsilon$. Para isto, basta tomar $\delta=\min \{1,6\varepsilon\}$. Observe inicialmente que se $\delta=\min \{1,6\varepsilon\}$, então $\delta
-			                                \leq1$ e $\delta\leq 6\varepsilon$. Desta primeira condição, $|x|>2$ e, utilizando a segunda, temos $$\left| \frac{1}{x}-\frac{1}{3}\right|=\left| \frac{3-x}{3x}\right|= \frac{|x-3|}{3|x|}<\frac{6\varepsilon}{3\cdot2}=\varepsilon.$$
+			                                Em construção.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
@@ -171,21 +135,11 @@
 
 			                            <!-- 4 -->
 			                            <p id="q_4_p">
-			                                4. Utilizando os limites fundamentais: $$\lim_{x\to0} \frac{\mathrm{sen}\, x}{x}=1,\;\;\lim_{x\to0} \left(1+\frac{1}{x}\right)^x=e\;\;\textrm{e}\;\;\lim_{x\to0} \frac{a^x-1}{x}=\ln a\;\;(a>0\;\;\textrm{e}\;\;a\neq1),$$ calcule:
+			                                4. No que segue, considere a função $f(x)=[[x]]+[[-x]]$.
 			                                <br />
-			                                (a) $\displaystyle\lim_{x\to0} \frac{\mathrm{sen}\, 3x}{\mathrm{sen}\, 5x}
-			                                $<br />
-			                                (b) $\displaystyle\lim_{x\to0} \frac{1-\cos x}{x}$
+			                                (a) Para quais valores de $a$ existe $\displaystyle\lim_{x\to a} f(x)$?
 			                                <br />
-			                                (c) $\displaystyle\lim_{x\to0} \frac{2\tan^2 x}{x^2}$
-			                                <br />
-			                                (d) $\displaystyle\lim_{x\to\infty} \left(1+\frac{1}{x}\right)^{x+2}$
-			                                <br />
-			                                (e) $\displaystyle\lim_{x\to\infty} \left(\frac{x+2}{x+1}\right)^x$
-			                                <br />
-			                                (f) $\displaystyle\lim_{x\to0} \frac{5^x-1}{x}$
-			                                <br />
-			                                (g) $\displaystyle\lim_{x\to0} \frac{e^{2x}-1}{x}$
+			                                (b) Em quais números a função $f$ é descontínua?
 			                            </p>
 			                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
@@ -212,7 +166,7 @@
 
 			                            <!-- 5 -->
 			                            <p id="q_5_p">
-			                                5. Suponha que $|f(x)|\leq g(x)$ para todo $x$, onde $\displaystyle\lim_{x\to a} g(x)=0$. Encontre $\displaystyle\lim_{x\to a} f(x)$. 
+			                                5. Use o Teorema do Valor Intermediário para mostrar que existe uma raiz da equação $\cos (\sqrt{x})=e^x-2$ no intervalo $(0,1)$.
 			                            </p>
 			                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
