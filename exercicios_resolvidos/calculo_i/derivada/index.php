@@ -124,7 +124,7 @@
 
 			                            <!-- 3 -->
 			                            <p id="q_3_p">
-			                                3. Calcule $\frac{dy}{dx} por derivação implícita sendo $3+x=\mathrm{sen}\,(xy^2)$.
+			                                3. Calcule $\frac{dy}{dx}$ por derivação implícita sendo $3+x=\mathrm{sen}\,(xy^2)$.
 			                            </p>
 			                            <!-- Resposta -->
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
@@ -188,7 +188,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
 			                                Solução:
 			                                <br />
-			                                $y=x^x\Rightarrow \ln y=\ln x^x=x\ln xRightarrow \frac{1}{y}y'=1\cdot\ln x+x\cdot\frac{1}{x}Rightarrow y'=y(\ln x+1)Rightarrow y'=x^x(\ln x +1)$.
+			                                $y=x^x\Rightarrow \ln y=\ln x^x=x\ln x\Rightarrow \frac{1}{y}y'=1\cdot\ln x+x\cdot\frac{1}{x}\Rightarrow y'=y(\ln x+1)\Rightarrow y'=x^x(\ln x +1)$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
 			                                Em construção: videoaula
@@ -211,7 +211,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_6_">
 			                                Dica:
 			                                <br />
-			                                Note que o módulo de um número real $a$ pode ser dado por $|a|=\max \{-a,a\}$ (o módulo de $a$ é o maior número entre $a$ e $-a$). Assim, $-a\leq |a|$ e $a\leq |a|$. Consequentemente, tem-se que $|x|\leq a$ se, e somente se, $-a\leq x\leq a$.
+			                                Note que o módulo de um número real $a$ pode ser dado por $|a|=\max \{-a,a\}$ (o módulo de $a$ é o maior número dentre $a$ e $-a$). Assim, $-a\leq |a|$ e $a\leq |a|$. Consequentemente, tem-se que $|x|\leq a$ se, e somente se, $-a\leq x\leq a$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_6_">
 			                                Solução:

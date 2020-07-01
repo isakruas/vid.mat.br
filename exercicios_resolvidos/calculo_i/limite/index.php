@@ -218,7 +218,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
 			                                Dica:
 			                                <br />
-			                                Note que o módulo de um número real $a$ pode ser dado por $|a|=\max \{-a,a\}$ (o módulo de $a$ é o maior número entre $a$ e $-a$). Assim, $-a\leq |a|$ e $a\leq |a|$. Consequentemente, tem-se que $|x|\leq a$ se, e somente se, $-a\leq x\leq a$.
+			                                Note que o módulo de um número real $a$ pode ser dado por $|a|=\max \{-a,a\}$ (o módulo de $a$ é o maior número dentre $a$ e $-a$). Assim, $-a\leq |a|$ e $a\leq |a|$. Consequentemente, tem-se que $|x|\leq a$ se, e somente se, $-a\leq x\leq a$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
 			                                Solução:
