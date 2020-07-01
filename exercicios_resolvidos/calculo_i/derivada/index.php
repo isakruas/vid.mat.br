@@ -85,7 +85,7 @@
 			                                <br />
 			                                (c) $f(x)=\frac{3\sqrt{x}+x}{x^2}=3\frac{\sqrt{x}}{x^2}+\frac{x}{x^2}=3x^{-\frac{3}{2}}+x^{-1}\Rightarrow f'(x)=-\frac{9}{2}x^{-\frac{5}{2}}-x^{-2}$
 			                                <br />
-			                                (d) $y'=\frac{x(5-\sqrt{x})-2x\left(-\frac{1}{2\sqrt{x}}\right)}{(5-\sqrt{x})^2}$
+			                                (d) $y'=\frac{x(5-\sqrt{x})-2x\left(-\frac{1}{2\sqrt{x}}\right)}{(5-\sqrt{x})^2}=\frac{5x-x^{\frac{3}{2}}+x^{\frac{1}{2}}}{(5-\sqrt{x})^2}$
 			                                <br />
 			                                (e) $y=(xe^x)\csc (3x)\Rightarrow y'=(e^x+xe^x)\csc (3x)+(xe^x)[-\cot (3x)][\csc (3x)]\cdot3=e^x\csc (3x)+xe^x\csc (3x)[1-3\cot (3x)]$
 			                                <br />
