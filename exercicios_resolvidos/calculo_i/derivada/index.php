@@ -79,7 +79,21 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                Em construção.
+			                                (a) $f'(x)=0$
+			                                <br />
+			                                (b) $f'(x)=5(x+x^{-1})^4(1-x^{-2})$
+			                                <br />
+			                                (c) $f(x)=\frac{3\sqrt{x}+x}{x^2}=3\frac{\sqrt{x}}{x^2}+\frac{x}{x^2}=3x^{-\frac{3}{2}}+x^{-1}\Rightarrow f'(x)=-\frac{9}{2}x^{-\frac{5}{2}}-x^{-2}$
+			                                <br />
+			                                (d) $y'=\frac{x(5-\sqrt{x})-2x\left(-\frac{1}{2\sqrt{x}}\right)}{(5-\sqrt{x})^2}$
+			                                <br />
+			                                (e) $y=(xe^x)\csc (3x)\Rightarrow y'=(e^x+xe^x)\csc (3x)+(xe^x)[-\cot (3x)][\csc (3x)]\cdot3=e^x\csc (3x)+xe^x\csc (3x)[1-3\cot (3x)]$
+			                                <br />
+			                                (f) $y'=[\sec^2(e^{\theta})]\cdot e^{\tan \theta}+e^{\tan \theta}\sec^2 \theta$
+			                                <br />
+			                                (g) $y'=\frac{8t^3}{3}(1+t^4)^{-\frac{1}{3}}$
+			                                <br />
+			                                (h) $y'=2\cot (\mathrm{sen}\,x)(-\csc^2(\mathrm{sen}\,x)\cdot\cos x=-2(\cos x)[\cot (\mathrm{sen}\,x)][\csc^2(\mathrm{sen}\,x)]$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Em construção: videoaula
@@ -156,12 +170,12 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
 			                                Dica:
 			                                <br />
-			                                Use derivação implícita e aplique a fórmula $y-y_0=m(x-x_0)$ para determinar a equação da reta tangente no ponto $(x_0,y_0)$ de inclinação $m$.
+			                                Use derivação implícita e aplique a fórmula $y-y_0=m(x-x_0)$ para determinar a equação da reta que passa pelo ponto $(x_0,y_0)$ de inclinação $m$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
 			                                <br />
-			                                Usando derivação implícita: $$y^2=5x^4-x^2\Rightarrow 2y\cdot y'=20x^3-2x\Rightarrow y'=\frac{10x^3-x}{y}.$$ Logo, a inclinação da reta $\frac{10\cdot1^3-1}{2}=\frac{9}{2}$ e, portanto, a equação será $$y-2=\frac{9}{2}(x-1)\Rightarrow y=\frac{9}{2}x-\frac{5}{2}.$$
+			                                Usando derivação implícita: $$y^2=5x^4-x^2\Rightarrow 2y\cdot y'=20x^3-2x\Rightarrow y'=\frac{10x^3-x}{y}.$$ Logo, a inclinação da reta é $\frac{10\cdot1^3-1}{2}=\frac{9}{2}$ e, portanto, a equação será $$y-2=\frac{9}{2}(x-1)\Rightarrow y=\frac{9}{2}x-\frac{5}{2}.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Em construção: videoaula
