@@ -116,12 +116,12 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
-			                                Em construção.
+			                                Use que $\sec x=\frac{1}{\cos x}$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                Em construção.
+			                                $y=\sec x=\frac{1}{\cos x}\Rightarrow y'=\frac{0\cdot\cos x-1\cdot(-\mathrm{sen}\,x)}{\cos^2 x}=\frac{\mathrm{sen}\,x}{\cos^2 x}=\frac{\mathrm{sen}\,x}{\cos x}\frac{1}{\cos x}=(\tan x)(\sec x)$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Em construção: videoaula
@@ -147,7 +147,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
-			                                Em construção.
+			                                $[3+x]'=[\mathrm{sen}\,(xy^2)]'\Rightarrow 1=\cos (xy^2)[1\cdot y^2+x2y\cdot y']\Rightarrow 1=y^2\cos (xy^2)+2xyy'\cos (xy^2)\Rightarrow y'=\frac{1-y^2\cos (xy^2)}{2xy\cos (xy^2)}$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
