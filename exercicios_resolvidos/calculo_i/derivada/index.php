@@ -156,11 +156,12 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
 			                                Dica:
 			                                <br />
-			                                Em construção.
+			                                Use derivação implícita e aplique a fórmula $y-y_0=m(x-x_0)$ para determinar a equação da reta tangente no ponto $(x_0,y_0)$ de inclinação $m$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
-			                                Em construção.
+			                                <br />
+			                                Usando derivação implícita: $$y^2=5x^4-x^2\Rightarrow 2y\cdot y'=20x^3-2x\Rightarrow y'=\frac{10x^3-x}{y}.$$ Logo, a inclinação da reta $\frac{10\cdot1^3-1}{2}=\frac{9}{2}$ e, portanto, a equação será $$y-2=\frac{9}{2}(x-1)\Rightarrow y=\frac{9}{2}x-\frac{5}{2}.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Em construção: videoaula

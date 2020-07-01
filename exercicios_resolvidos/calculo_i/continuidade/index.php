@@ -145,11 +145,14 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
 			                                Dica:
 			                                <br />
-			                                Em construção.
+			                                Lembre-se que $[[x]]=$ maior inteiro menor ou igual a $x$. Assim, $[[7]]=7$, $[[2,76]]=2$, $[[\pi]]=3$ e $[[-5,391]]=-6$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
-			                                Em construção.
+			                                <br />
+			                                (a) Inicialmente, observe que $f(2)=0$, $f(5)=0$ e $f(-3)=0$. De modo geral, $f(x)=0$ se $x$ é um número inteiro. Além disso, $f(1,7)=1+(-2)=-1$ e $f(-\pi)=-4+3=-1$, logo $f(x)=-1$ se $x$ não é inteiro. Portanto, $\displaystyle\lim_{x\to a} f(x)=-1$ para todo $a$.
+			                                <br />
+			                                (b) $f$ é descontínua em todo $a$ inteiro.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Em construção: videoaula
