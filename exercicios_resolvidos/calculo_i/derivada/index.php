@@ -216,7 +216,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_6_">
 			                                Solução:
 			                                <br />
-			                                Por hipótese, $|f(0)|\leq 0\Rightarrow -0\leq f(0)\leq 0$, ou seja, $f(0)=0$. Além disso, $-x^2\leq f(x)\leq x^2$ para todo $x$, logo $-x\leq \frac{f(x)}{x}\leq x$ para todo $x$ e, pelo Teorema do Confronto, $\lim_{x\to0}\frac{f(x)}{x}$. Portanto, $f'(0)$.
+			                                Por hipótese, $|f(0)|\leq 0\Rightarrow -0\leq f(0)\leq 0$, ou seja, $f(0)=0$. Além disso, $-x^2\leq f(x)\leq x^2$ para todo $x$, logo $-x\leq \frac{f(x)}{x}\leq x$ para todo $x$ e, pelo Teorema do Confronto, $\displaystyle\lim_{x\to0}\frac{f(x)}{x}$. Portanto, $f'(0)$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_6_">
 			                                Em construção: videoaula
