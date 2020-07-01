@@ -218,11 +218,11 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
 			                                Dica:
 			                                <br />
-			                                Em construção.
+			                                Note que o módulo de um número real $a$ pode ser dado por $|a|=\max \{-a,a\}$ (o módulo de $a$ é o maior número entre $a$ e $-a$). Assim, $-a\leq |a|$ e $a\leq |a|$. Consequentemente, tem-se que $|x|\leq a$ se, e somente se, $-a\leq x\leq a$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
 			                                Solução:
-			                                Em construção.
+			                                Por hipótese, $|f(x)|\leq g(x)$ para todo $x$, logo $-g(x)\leq f(x)\leq g(x)$ para todo $x$. Usando o Teorema do Confronto, temos que $\displaystyle\lim_{x\to a} f(x)$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
 			                                Em construção: videoaula
