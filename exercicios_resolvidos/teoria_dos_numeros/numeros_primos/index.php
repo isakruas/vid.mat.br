@@ -79,9 +79,9 @@
 			                                <br />
 			                                
 			                            </p>-->
-			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >
+			                            <!--<p class="button primary" id="d_1" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>
+			                            </p>-->
 			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
@@ -140,7 +140,7 @@
 		                                <br />
 		                                (i) $p>1$;
 		                                <br />
-		                                (ii) Dados $a,b\in\N$, se $p=ab$, então $a=1$ ou $b=1$.
+		                                (ii) Dados $a,b\in\mathbb{N}$, se $p=ab$, então $a=1$ ou $b=1$.
 		                            </p>
 		                            <!-- Resposta -->
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
@@ -167,6 +167,36 @@
 			                            <!--<p class="button primary" id="v_3" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
+
+			                            <!-- 4 -->
+		                            <p id="q_4_p">
+		                                4. Os números primos da forma $M_n=2^n-1$ ($n\in\mathbb{N}$) são chamados primos de Mersenne em homenagem ao matemático francês Marin Mersenne (1588-1648), embora já fossem conhecidos por Euclides. Se $n\in\mathbb{N}$ e $2^n-1$ é um número primo, mostre que $n$ também é primo.
+		                            </p>
+		                            <!-- Resposta -->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                                Dica:
+			                                <br/>
+			                                Prove utilizando a contrapositiva.
+			                            </p>
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
+			                                Solução:
+			                                <br />
+			                                Se $n\in\mathbb{N}$ é composto, então $n=ab$ com $a,b>1$. Assim, $2^a-1>1$ e $2^n-1=2^{ab}-1=(2^a)^b-1=(2^a-1)\left((2^a)^{b-1}+(2^a)^{b-2}+\cdots+(2^a)+1\right)$. Portanto, $2^n-1$ é composto e o resultado é válido.
+			                            </p>
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
+			                                Observação:
+			                                <br />
+			                                Até a data de hoje (outubro\2020), o maior primo encontrado é o primo de Mersenne $2^{82589933}-1$ que possui 24862048 dígitos. Além disso, em 1536, Hudalrichus Regius apresentou a factorização de $2^{11}-1 = 2047 = 23 \cdot 89$, demonstrando que a recíproca do resultado acima é falsa.
+			                            </p>
+			                            <p class="button primary" id="d_3" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>
+			                            <p class="button primary" id="r_3" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <p class="button primary" id="v_3" onclick="btn2(this.id)" >
+			                                OBSERVAÇÃO
+			                            </p>
 
 
 		                            
