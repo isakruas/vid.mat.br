@@ -138,23 +138,11 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
-			                                (a) Rascunho: $\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\varepsilon\Rightarrow |x-1|<\frac{2\varepsilon}{5}\Rightarrow \delta=\frac{2\varepsilon}{5}.$
+			                                (a) Rascunho: $\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\varepsilon\Rightarrow |x-1|<\frac{2\varepsilon}{5}$
 			                                <br />
-			                                Resposta: Considere $f(x)=\frac{5x+3}{2}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-1|<\delta$, então $|f(x)-4|<\varepsilon$. Para isto, basta tomar $\delta=\frac{2\varepsilon}{5}$. De fato, $$\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\frac{5}{2}\cdot \frac{2\varepsilon}{5}=\varepsilon.$$
+			                                Resposta: Seja $\varepsilon>0$ dado e $f(x)=\frac{5x+3}{2}$. Temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-1|<\delta$, então $|f(x)-4|<\varepsilon$. Para isto, basta tomar $\delta=\frac{2\varepsilon}{5}$. De fato, $$\left| \frac{5x+3}{2}-4\right|=\left| \frac{5x-5}{2}\right|=\frac{5}{2}|x-1|<\frac{5}{2}\cdot \frac{2\varepsilon}{5}<\varepsilon.$$
 			                                <br /><br />
-			                                (b) Rascunho: $\left| \frac{x^2+x-6}{x-2}-5\right|=\left| \frac{x^2-4x+4}{x-2}\right|=|x-2|<\varepsilon\Rightarrow \delta=\varepsilon.$
-			                                <br />
-			                                Resposta: Considere $f(x)=\frac{x^2+x-6}{x-2}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-2|<\delta$, então $|f(x)-5|<\varepsilon$. Para isto, basta tomar $\delta=\varepsilon$. De fato, $$\left| \frac{x^2+x-6}{x-2}-5\right|=\left| \frac{x^2-4x+4}{x-2}\right|=|x-2|<\delta=\varepsilon.$$
-			                                <br /><br />
-			                                (c) Rascunho: $|x^2-7-(-3)|=|x^2-4|=|x+2|\cdot|x-2|\;(*)$. Como $x$ tende a $-2$, podemos supor que a distância de $x$ a $-2$ é menor que $1$, ou seja, $|x-(-2)|<1$. Assim, $|x+2|<1\Rightarrow |x-2|=|x+2-4|\leq |x+2|+|-4|<1+4=5\Rightarrow |x-2|<5\;(**)$. Substituindo $(**)$ em $(*)$: $|x^2-7-(-3)|=|x+2|\cdot|x-2|<|x+2|\cdot5<\varepsilon\Rightarrow |x+2|<\frac{\varepsilon}{5}\Rightarrow \delta=\min \left\{1,\frac{\varepsilon}{5} \right\}.$
-			                                <br />
-			                                Resposta: Considere $f(x)=x^2-7$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-(-2)|<\delta$, então $|f(x)-(-3)|<\varepsilon$. Para isto, basta tomar $\delta=\min \left\{1,\frac{\varepsilon}{5} \right\}$. Observe inicialmente que se $\delta=\min \left\{1,\frac{\varepsilon}{5} \right\}$, então $\delta
-			                                \leq1$ e $\delta\leq\frac{\varepsilon}{5}$. Desta primeira condição, $|x-2|<5$ e, utilizando a segunda, temos $$|x^2-7-(-3)|=|x^2-4|=|x+2|\cdot|x-2|<\delta\cdot 5<\frac{\varepsilon}{5}\cdot 5=\varepsilon.$$
-			                                <br /><br />
-			                                (d) Rascunho: $\left| \frac{1}{x}-\frac{1}{3}\right|=\left| \frac{3-x}{3x}\right|=\frac{|x-3|}{3|x|}\;(*)$. Como $x$ tende a $3$, podemos supor que a distância de $x$ a $3$ é menor que $1$, ou seja, $|x-3|<1$. Logo, $3=|3|=|3-x+x|\leq |3-x|+|x|=|x-3|+|x|<1+|x|\Rightarrow |x|>2\Rightarrow \frac{1}{|x|}<\frac{1}{2}\;(**)$. Substituindo $(**)$ em $(*)$: $\left| \frac{1}{x}-\frac{1}{3}\right|= \frac{|x-3|}{3|x|}<\frac{|x-3|}{3\cdot 2}=\frac{|x-3|}{6}<\varepsilon\Rightarrow |x-3|<6\varepsilon\Rightarrow \delta=\min \left\{1,6\varepsilon \right\}.$
-			                                <br />
-			                                Resposta: Considere $f(x)=\frac{1}{x}$. Dado $\varepsilon>0$, temos de encontrar um $\delta>0$ tal que se $x\in\textrm{D}(f)$ e $0<|x-3|<\delta$, então $\left|\frac{1}{x}-\frac{1}{3}\right|<\varepsilon$. Para isto, basta tomar $\delta=\min \{1,6\varepsilon\}$. Observe inicialmente que se $\delta=\min \{1,6\varepsilon\}$, então $\delta
-			                                \leq1$ e $\delta\leq 6\varepsilon$. Desta primeira condição, $|x|>2$ e, utilizando a segunda, temos $$\left| \frac{1}{x}-\frac{1}{3}\right|=\left| \frac{3-x}{3x}\right|= \frac{|x-3|}{3|x|}<\frac{6\varepsilon}{3\cdot2}=\varepsilon.$$
+			                                (b) 
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
@@ -171,7 +159,7 @@
 
 			                            <!-- 4 -->
 			                            <p id="q_4_p">
-			                                4. Utilizando os limites fundamentais: $$\lim_{x\to0} \frac{\mathrm{sen}\, x}{x}=1,\;\;\lim_{x\to0} \left(1+\frac{1}{x}\right)^x=e\;\;\textrm{e}\;\;\lim_{x\to0} \frac{a^x-1}{x}=\ln a\;\;(a>0\;\;\textrm{e}\;\;a\neq1),$$ calcule:
+			                                4. Utilizando os limites fundamentais: $\displaystyle\lim_{x\to0} \frac{\mathrm{sen}\, x}{x}=1$, $\displaystyle\lim_{x\to0} \left(1+\frac{1}{x}\right)^x=e$ e $\displaystyle\lim_{x\to0} \frac{a^x-1}{x}=\ln a$ ($a>0$ e $a\neq1$), calcule:
 			                                <br />
 			                                (a) $\displaystyle\lim_{x\to0} \frac{\mathrm{sen}\, 3x}{\mathrm{sen}\, 5x}
 			                                $<br />
@@ -207,33 +195,6 @@
 			                                SOLUÇÃO
 			                            </p>
 			                            <!--<p class="button primary" id="v_4" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
-
-			                            <!-- 5 -->
-			                            <p id="q_5_p">
-			                                5. Suponha que $|f(x)|\leq g(x)$ para todo $x$, onde $\displaystyle\lim_{x\to a} g(x)=0$. Encontre $\displaystyle\lim_{x\to a} f(x)$. 
-			                            </p>
-			                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
-			                                Dica:
-			                                <br />
-			                                Note que o módulo de um número real $a$ pode ser dado por $|a|=\max \{-a,a\}$ (o módulo de $a$ é o maior número dentre $a$ e $-a$). Assim, $-a\leq |a|$ e $a\leq |a|$. Consequentemente, tem-se que $|x|\leq a$ se, e somente se, $-a\leq x\leq a$.
-			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
-			                                Solução:
-			                                Por hipótese, $|f(x)|\leq g(x)$ para todo $x$, logo $-g(x)\leq f(x)\leq g(x)$ para todo $x$. Usando o Teorema do Confronto, temos que $\displaystyle\lim_{x\to a} f(x)$.
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <p class="button primary" id="d_5" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_5" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_5" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
 

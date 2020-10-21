@@ -45,7 +45,7 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h1>Vid.Mat.Br</h1>
+											<h1>Vid.Mat.Br2</h1>
 											<p class="button primary" id="r_1" onclick="window.open('https://www.youtube.com/channel/UCtnguu8ASJ5dq1mJVEr5xSg')" >
 			                                Canal no YouTube
 			                            	</p>

@@ -54,23 +54,7 @@
 
 		                            <!-- 1 -->
 		                            <p id="q_1_p">
-		                                1. Derive as funções abaixo.
-		                                <br />
-		                                (a) $f(x)=5\pi$
-		                                <br />
-		                                (b) $f(x)=(x+x^{-1})^5$
-		                                <br />
-		                                (c) $f(x)=\frac{3\sqrt{x}+x}{x^2}$
-		                                <br />
-		                                (d) $y=\frac{2x}{5-\sqrt{x}}$
-		                                <br />
-		                                (e) $y=xe^x\csc (3x)$
-		                                <br />
-		                                (f) $y=\tan (e^{\theta})+e^{\tan \theta}$
-		                                <br />
-		                                (g) $y=(1+t^4)^{\frac{2}{3}}$
-		                                <br />
-		                                (h) $y=\cot^2(\mathrm{sen}\,x)$
+		                                1.
 		                            </p>
 		                            <!-- Resposta -->
 		                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
@@ -79,21 +63,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                (a) $f'(x)=0$
-			                                <br />
-			                                (b) $f'(x)=5(x+x^{-1})^4(1-x^{-2})$
-			                                <br />
-			                                (c) $f(x)=\frac{3\sqrt{x}+x}{x^2}=3\frac{\sqrt{x}}{x^2}+\frac{x}{x^2}=3x^{-\frac{3}{2}}+x^{-1}\Rightarrow f'(x)=-\frac{9}{2}x^{-\frac{5}{2}}-x^{-2}$
-			                                <br />
-			                                (d) $y'=\frac{x(5-\sqrt{x})-2x\left(-\frac{1}{2\sqrt{x}}\right)}{(5-\sqrt{x})^2}=\frac{5x-x^{\frac{3}{2}}+x^{\frac{1}{2}}}{(5-\sqrt{x})^2}$
-			                                <br />
-			                                (e) $y=(xe^x)\csc (3x)\Rightarrow y'=(e^x+xe^x)\csc (3x)+(xe^x)[-\cot (3x)][\csc (3x)]\cdot3=e^x\csc (3x)+xe^x\csc (3x)[1-3\cot (3x)]$
-			                                <br />
-			                                (f) $y'=[\sec^2(e^{\theta})]\cdot e^{\tan \theta}+e^{\tan \theta}\sec^2 \theta$
-			                                <br />
-			                                (g) $y'=\frac{8t^3}{3}(1+t^4)^{-\frac{1}{3}}$
-			                                <br />
-			                                (h) $y'=2\cot (\mathrm{sen}\,x)(-\csc^2(\mathrm{sen}\,x)\cdot\cos x=-2(\cos x)[\cot (\mathrm{sen}\,x)][\csc^2(\mathrm{sen}\,x)]$
+			                                Em construção.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Em construção: videoaula
@@ -105,144 +75,6 @@
 			                                SOLUÇÃO
 			                            </p>
 			                            <!--<p class="button primary" id="v_1" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
-
-			                            <!-- 2 -->
-			                            <p id="q_2_p">
-			                                2. Demonstre que $\frac{d}{dx}(\sec x)=\sec x\cdot\tan x$.
-			                            </p>
-			                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
-			                                Dica:
-			                                <br />
-			                                Use que $\sec x=\frac{1}{\cos x}$.
-			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
-			                                Solução:
-			                                <br />
-			                                $y=\sec x=\frac{1}{\cos x}\Rightarrow y'=\frac{0\cdot\cos x-1\cdot(-\mathrm{sen}\,x)}{\cos^2 x}=\frac{\mathrm{sen}\,x}{\cos^2 x}=\frac{\mathrm{sen}\,x}{\cos x}\frac{1}{\cos x}=(\tan x)(\sec x)$.
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <p class="button primary" id="d_2" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_2" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_2" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
-
-			                            <!-- 3 -->
-			                            <p id="q_3_p">
-			                                3. Calcule $\frac{dy}{dx}$ por derivação implícita sendo $3+x=\mathrm{sen}\,(xy^2)$.
-			                            </p>
-			                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
-			                                Em construção: dica
-			                            </p>-->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
-			                                Solução:
-			                                <br />
-			                                $[3+x]'=[\mathrm{sen}\,(xy^2)]'\Rightarrow 1=\cos (xy^2)[1\cdot y^2+x2y\cdot y']\Rightarrow 1=y^2\cos (xy^2)+2xyy'\cos (xy^2)\Rightarrow y'=\frac{1-y^2\cos (xy^2)}{2xy\cos (xy^2)}$
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <!--<p class="button primary" id="d_3" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>-->
-			                            <p class="button primary" id="r_3" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_3" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
-
-			                            <!-- 4 -->
-			                            <p id="q_4_p">
-			                                4. A curva com equação $y^2=5x^4-x^2$ é chamada kampyle (do grego, curvado) de Eudoxo. Encontre uma equação da reta tangente a essa curva no ponto $(1,2)$.
-			                            </p>
-			                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
-			                                Dica:
-			                                <br />
-			                                Use derivação implícita e aplique a fórmula $y-y_0=m(x-x_0)$ para determinar a equação da reta que passa pelo ponto $(x_0,y_0)$ de inclinação $m$.
-			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
-			                                Solução:
-			                                <br />
-			                                Usando derivação implícita: $$y^2=5x^4-x^2\Rightarrow 2y\cdot y'=20x^3-2x\Rightarrow y'=\frac{10x^3-x}{y}.$$ Logo, a inclinação da reta é $\frac{10\cdot1^3-1}{2}=\frac{9}{2}$ e, portanto, a equação será $$y-2=\frac{9}{2}(x-1)\Rightarrow y=\frac{9}{2}x-\frac{5}{2}.$$
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <p class="button primary" id="d_4" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_4" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_4" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
-
-			                            <!-- 5 -->
-			                            <p id="q_5_p">
-			                                5. Derive $y=x^x$.
-			                            </p>
-			                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
-			                                Dica:
-			                                <br />
-			                                Como a base e o expoente são variáveis, devemos usar a derivação logarítmica.
-			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
-			                                Solução:
-			                                <br />
-			                                $y=x^x\Rightarrow \ln y=\ln x^x=x\ln x\Rightarrow \frac{1}{y}y'=1\cdot\ln x+x\cdot\frac{1}{x}\Rightarrow y'=y(\ln x+1)\Rightarrow y'=x^x(\ln x +1)$.
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <p class="button primary" id="d_5" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_5" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_5" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
-
-			                            <!-- 5 -->
-			                            <p id="q_6_p">
-			                                6. Suponha que $f$ seja uma função com a propriedade $|f(x)|\leq x^2$ para todo $x$. Mostre que $f(0)=0$. A seguir, mostre que $f'(0)=0$.
-			                            </p>
-			                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_6_">
-			                                Dica:
-			                                <br />
-			                                Note que o módulo de um número real $a$ pode ser dado por $|a|=\max \{-a,a\}$ (o módulo de $a$ é o maior número dentre $a$ e $-a$). Assim, $-a\leq |a|$ e $a\leq |a|$. Consequentemente, tem-se que $|x|\leq a$ se, e somente se, $-a\leq x\leq a$.
-			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_6_">
-			                                Solução:
-			                                <br />
-			                                Por hipótese, $|f(0)|\leq 0\Rightarrow -0\leq f(0)\leq 0$, ou seja, $f(0)=0$. Além disso, $-x^2\leq f(x)\leq x^2$ para todo $x$, logo $-x\leq \frac{f(x)}{x}\leq x$ para todo $x$ e, pelo Teorema do Confronto, $f'(0)=\displaystyle\lim_{x\to0}\frac{f(x)}{x}=0$.
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_6_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <p class="button primary" id="d_6" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_6" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_6" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
 
