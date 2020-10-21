@@ -187,7 +187,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Observação:
 			                                <br />
-			                                Até a data de hoje (outubro\2020), o maior primo encontrado é o primo de Mersenne $2^{82589933}-1$ que possui 24862048 dígitos. Além disso, em 1536, Hudalrichus Regius apresentou a factorização de $2^{11}-1 = 2047 = 23 \cdot 89$, demonstrando que a recíproca do resultado acima é falsa.
+			                                Até a data de hoje (outubro\2020), o maior primo encontrado é o primo de Mersenne $2^{82589933}-1$ que possui 24862048 dígitos. Além disso, em 1536, Hudalrichus Regius apresentou a fatoração de $2^{11}-1 = 2047 = 23 \cdot 89$, demonstrando que a recíproca do resultado acima é falsa.
 			                            </p>
 			                            <p class="button primary" id="d_4" onclick="btn2(this.id)" >
 			                                DICA
