@@ -95,6 +95,27 @@
 											</ul>
 										</article>
 
+										<article>
+										 
+											<h3>Números primos</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="numeros_primos/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 									</div>
 								</section>

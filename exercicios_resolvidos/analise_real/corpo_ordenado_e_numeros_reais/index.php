@@ -70,7 +70,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                (a) Suponha por absurdo que $x^{-1}\notin P$. Assim, $x^{-1}=0$ ou $-x^{-1}\in P$, mas se $x^{-1}=0$ teríamos que $x\cdot x^{-1}=1\Rightarrow $0=1$, contradição. Logo, $-x^{-1}\in P$ e, por hipótese, $x\in P\Rightarrow x\cdot(-x^{-1})=-1\in P$, contradição.
+			                                (a) Suponha por absurdo que $x^{-1}\notin P$. Assim, $x^{-1}=0$ ou $-x^{-1}\in P$, mas se $x^{-1}=0$ teríamos que $x\cdot x^{-1}=1\Rightarrow 0=1$, contradição. Logo, $-x^{-1}\in P$ e, por hipótese, $x\in P\Rightarrow x\cdot(-x^{-1})=-1\in P$, contradição.
 			                                <br />
 			                                (b) $x< y\Rightarrow y-x\in P$ e $x'< y'\Rightarrow y'-x'\in P$. Assim, $(y-x)+(y'-x')\in P\Rightarrow (y+y')-(x+x')\in P\Rightarrow x+x'< y+y'$.
 			                                <br />
