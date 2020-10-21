@@ -91,20 +91,54 @@
 
 		                            <!-- 2 -->
 		                            <p id="q_2_p">
+		                                2. Seja $p\in\mathbb{Z}$. Prove que $p$ é um número primo se, e somente se, satisfaz as seguintes condições:
 		                                <br />
-		                                2. Um número da forma $F_n=2^{2^n}+1$ é chamado de número de Fermat.
+		                                (i) $p>1$;
+		                                <br />
+		                                (ii) Dados $a,b\in\mathbb{N}$, se $p=ab$, então $a=1$ ou $b=1$.
+		                            </p>
+		                            <!-- Resposta -->
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                                Em construção: dica
+			                            </p>-->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
+			                                Solução:
+			                                <br />
+			                                ($\Rightarrow$) Por definição de número primo, $p>1$. Agora, se $p=ab$, então $a\mid p\Rightarrow a=1$ ou $a=p$. Se $a=1$, então $b=p$ e caso $a=p$, tem-se $b=1$.
+			                                <br />
+			                                ($\Leftarrow$) Seja $c$ um divisor positivo de $p$ , logo $p=ck\Rightarrow c=1$ ou $k=1\Rightarrow c=1$ ou $c=p\Rightarrow p$ é primo.
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
+			                                Videoaula:
+			                                <br />
+			                                <iframe width="875" height="425" src="https://www.youtube.com/embed/GwCWqHw2Rzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_2" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>-->
+			                            <p class="button primary" id="r_2" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_2" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+			                            <!-- 3 -->
+		                            <p id="q_3_p">
+		                                <br />
+		                                3. Um número da forma $F_n=2^{2^n}+1$ é chamado de número de Fermat.
 		                                <br />
 		                                (a) Prove que dois números de Fermat distintos são primos entre si.
 		                                <br />
 		                                (b) Use o resultado do item (a) para obter uma segunda prova da infinitude dos números primos.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                            	Dica:
 			                            	<br />
 			                                (a) Prove inicialmente que $F_0F_1\cdots F_{n-1}=F_n-2$. Em seguida, considere dois inteiros distintos $m$ e $n$ (podemos supor, sem perda de generalidade, que $n< m$) e mostre que $F_m-F_0F_1\cdots F_n\cdots F_{m-1}=2$. Por último, tome um divisor comum de $F_m$ e $F_n$ e mostre, utilizando a equação anterior, que $a=\pm1$.
 			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
 			                                (a) Inicialmente, vamos provar por indução que $F_0F_1\cdots F_{n-1}=F_n-2$. De fato,
@@ -119,54 +153,21 @@
 											<br /><br />
 											(b) Sabe-se que existem infinitos números de Fermat e, como foi visto no item (a), eles não possuem fatores primos em comum. Logo, o conjunto formado pelos números primos são pode ser finito.
 			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Videoaula:
 			                                <br />
 			                                <iframe width="853" height="480" src="https://www.youtube.com/embed/KkZ67G8Nev4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			                            </p>-->
-			                            <p class="button primary" id="d_2" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_3" onclick="btn2(this.id)" >
 			                                DICA
 			                            </p>
-			                            <p class="button primary" id="r_2" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_1" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
-
-		                            <!-- 3 -->
-		                            <p id="q_3_p">
-		                                3. Seja $p\in\mathbb{Z}$. Prove que $p$ é um número primo se, e somente se, satisfaz as seguintes condições:
-		                                <br />
-		                                (i) $p>1$;
-		                                <br />
-		                                (ii) Dados $a,b\in\mathbb{N}$, se $p=ab$, então $a=1$ ou $b=1$.
-		                            </p>
-		                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
-			                                Em construção: dica
-			                            </p>-->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
-			                                Solução:
-			                                <br />
-			                                ($\Rightarrow$) Por definição de número primo, $p>1$. Agora, se $p=ab$, então $a\mid p\Rightarrow a=1$ ou $a=p$. Se $a=1$, então $b=p$ e caso $a=p$, tem-se $b=1$.
-			                                <br />
-			                                ($\Leftarrow$) Seja $c$ um divisor positivo de $p$ , logo $p=ck\Rightarrow c=1$ ou $k=1\Rightarrow c=1$ ou $c=p\Rightarrow p$ é primo.
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
-			                                Videoaula:
-			                                <br />
-			                                <iframe width="875" height="425" src="https://www.youtube.com/embed/GwCWqHw2Rzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			                            </p>-->
-			                            <!--<p class="button primary" id="d_3" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>-->
 			                            <p class="button primary" id="r_3" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
 			                            <!--<p class="button primary" id="v_3" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
+
 
 			                            <!-- 4 -->
 		                            <p id="q_4_p">
