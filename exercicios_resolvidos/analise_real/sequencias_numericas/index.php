@@ -114,9 +114,9 @@
 			                                <br />
 			                                (c) Inicialmente, observe que $|\mathrm{sen}\,(2n)|\leq 1$ para todo $n\in\mathbb{N}$ e que $$|n+\mathrm{sen}\,(2n)|=|n-(-\mathrm{sen}\,(2n))|\geq |n|-|-\mathrm{sen}\,(2n)|=n-|\mathrm{sen}\,(2n)|\Rightarrow \frac{1}{|n+\mathrm{sen}\,(2n)|}\leq\frac{1}{n-|\mathrm{sen}\,(2n)|}.$$
 			                                <br />
-			                                Rascunho: $\left| \frac{5n}{n+\mathrm{sen}\,(2n)}-5\right|=\frac{5|\mathrm{sen}\,(2n)|}{|n+\mathrm{sen}\,(2n)|}\leq \frac{5}{|n+\mathrm{sen}\,(2n)|}\leq \frac{5}{n-|\mathrm{sen}\,(2n)|}\leq \frac{3}{n-1}<\varepsilon\Rightarrow n>\frac{3}{\varepsilon}+1$
+			                                Rascunho: $\left| \frac{5n}{n+\mathrm{sen}\,(2n)}-5\right|=\frac{5|\mathrm{sen}\,(2n)|}{|n+\mathrm{sen}\,(2n)|}\leq \frac{5}{|n+\mathrm{sen}\,(2n)|}\leq \frac{5}{n-|\mathrm{sen}\,(2n)|}\leq \frac{5}{n-1}<\varepsilon\Rightarrow n>\frac{5}{\varepsilon}+1$
 			                                <br />
-			                                Resposta: Dado $\varepsilon>0$, basta tomar um número natural $n_0>\frac{3}{\varepsilon}+1$. De fato, se $n>n_0>\frac{3}{\varepsilon}+1$ temos que $\frac{3}{n-1}<\varepsilon$, logo $$\left| \frac{5n}{n+\mathrm{sen}\,(2n)}-5\right|\leq \frac{3}{n-1}<\varepsilon.$$                            
+			                                Resposta: Dado $\varepsilon>0$, basta tomar um número natural $n_0>\frac{5}{\varepsilon}+1$. De fato, se $n>n_0>\frac{5}{\varepsilon}+1$ temos que $\frac{5}{n-1}<\varepsilon$, logo $$\left| \frac{5n}{n+\mathrm{sen}\,(2n)}-5\right|\leq \frac{5}{n-1}<\varepsilon.$$                            
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Em construção: videoaula
@@ -133,14 +133,20 @@
 
 		                            <!-- 3 -->
 		                            <p  id="q_3_p">
-		                                3. 
+		                                3. Considere a sequência $\sqrt{2},\,\sqrt{2+\sqrt{2}},\,\sqrt{2+\sqrt{2+\sqrt{2}}},\,\ldots$.
+		                                <br />
+		                                (a) Mostre que esta sequência é limitada e monótona (portanto convergente). \emph{Sugestão:} Prove por indução que $x_n<2$, $\forall\,n\in\N$.
+		                                <br />
+		                                (b) Calcule seu limite. 
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                                Em construção: dica
 			                            </p>-->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
-			                                
+			                            	Solução: 
+			                            	<br />
+			                            	Em construção.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
@@ -157,11 +163,7 @@
 
 		                            <!-- 4 -->
 		                            <p  id="q_4_p">
-		                                4. Considere a sequência $\sqrt{2},\,\sqrt{2+\sqrt{2}},\,\sqrt{2+\sqrt{2+\sqrt{2}}},\,\ldots$.
-		                                <br />
-		                                (a) Mostre que esta sequência é limitada e monótona (portanto convergente). \emph{Sugestão:} Prove por indução que $x_n<2$, $\forall\,n\in\N$.
-		                                <br />
-		                                (b) Calcule seu limite. 
+		                                4. Mostre que a sequência $\left(\frac{n^2-1}{n}\right)$ é divergente.
 		                            </p>
 		                            <!-- Resposta -->
 		                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
@@ -169,10 +171,7 @@
 			                            </p>-->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
-			                                <br />
-			                                (a) 
-			                                <br />
-			                                (b) 
+			                                
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Em construção: videoaula
@@ -189,7 +188,15 @@
 
 		                            <!-- 5 -->
 		                            <p  id="q_5_p">
-		                                5. Mostre que a sequência $\left(\frac{n^2-1}{n}\right)$ é divergente.
+		                                5. Dizemos que uma sequência $(x_n)$ é de Cauchy se para todo $\varepsilon>0$ dado podemos encontrar $n_0\in\mathbb{N}$ tal que $$m>n_0,\,n>n_0\Rightarrow|x_m-x_n|<\varepsilon.$$ Prove que:
+		                                <br />
+		                                (a) A sequência $\left(\frac{1}{n}\right)$ é de Cauchy.
+		                                <br />
+		                                (b) A sequência $(1+(-1)^n)$ não é de Cauchy.
+		                                <br />
+		                                (c) Toda sequência de Cauchy é limitada.
+		                                <br />
+		                                (d) Uma sequência é convergente se, e somente se, é de Cauchy.
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
@@ -198,7 +205,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
 			                                Solução:
 			                                <br />
-			                                
+			                                Em construção.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
 			                                Em construção: videoaula
@@ -213,43 +220,7 @@
 			                                VIDEOAULA
 			                            </p>-->
 
-		                            <!-- 6 -->
-		                            <p  id="q_6_p">
-		                                6. Dizemos que uma sequência $(x_n)$ é de Cauchy se para todo $\varepsilon>0$ dado podemos encontrar $n_0\in\N$  tal que $$m>n_0,\,n>n_0\Rightarrow|x_m-x_n|<\varepsilon.$$ Prove que:
-		                                <br />
-		                                (a) A sequência $\left(\frac{1}{n}\right)$ é de Cauchy.
-		                                <br />
-		                                (b) A sequência $(1+(-1)^n)$ não é de Cauchy.
-		                                <br />
-		                                (c) Toda sequência de Cauchy é limitada.
-		                                <br />
-		                                (d) Uma sequência é convergente se, e somente se, é de Cauchy.
-		                            </p>
-		                            <!-- Resposta -->
-		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_6_">
-			                                Dica:
-			                                <br />
-			                                (a) Use a desigualdade de Bernoulli e o fato de que $\mathbb{N}$ é ilimitado superiormente sobre $K$ (isto significa que $K$ é um corpo arquimediano).
-			                                <br />
-			                                (b) Prove que $0$ é a maior das contas inferiores usando a contrapositiva.
-			                            </p>-->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_6_">
-			                                Solução:
-			                                <br />
-			                                Em construção.
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_6_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <!--<p class="button primary" id="d_6" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>-->
-			                            <p class="button primary" id="r_6" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_6" onclick="btn2(this.id)" >
-			                                VIDEOAULA
-			                            </p>-->
+		                            
 
  
 
