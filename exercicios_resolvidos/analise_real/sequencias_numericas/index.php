@@ -197,7 +197,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
 			                                Solução:
 			                                <br />
-			                                Por hipótese, dado $\varepsilon_1>0$, existe um número natural $n_0$ tal que se $n>n_0$, então $\left| \frac{y_n}{a}-1\right|<\varepsilon$. Mas, $$\left| \frac{y_n}{a}-1\right|=\left| \frac{y_n-a}{a}\right|=\frac{|y_n-a|}{|a|}<\varepsilon_1\Rightarrow |y_n-a|<\varepsilon_1\cdot|a|.$$ Agora, para provar que $y_n\to a$, considere $\varepsilon>0$. Assim, podemos escrever $\varepsilon=$\varepsilon_1\cdot |a|$ para algum $\varepsilon_1>0$. Por hipótese, existe $n_0$ tal que se $n>n_0$, então $$\left| \frac{y_n}{a}-1\right|<\varepsilon\Rightarrow |y_n-a|<\varepsilon_1\cdot|a|=\varepsilon.$$
+			                                Por hipótese, dado $\varepsilon_1>0$, existe um número natural $n_0$ tal que se $n>n_0$, então $\left| \frac{y_n}{a}-1\right|<\varepsilon$. Mas, $$\left| \frac{y_n}{a}-1\right|=\left| \frac{y_n-a}{a}\right|=\frac{|y_n-a|}{|a|}<\varepsilon_1\Rightarrow |y_n-a|<\varepsilon_1\cdot|a|.$$ Agora, para provar que $y_n\to a$, considere $\varepsilon>0$. Assim, podemos escrever $\varepsilon=\varepsilon_1\cdot |a|$ para algum $\varepsilon_1>0$. Por hipótese, existe $n_0$ tal que se $n>n_0$, então $$\left| \frac{y_n}{a}-1\right|<\varepsilon\Rightarrow |y_n-a|<\varepsilon_1\cdot|a|=\varepsilon.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
 			                                Em construção: videoaula
