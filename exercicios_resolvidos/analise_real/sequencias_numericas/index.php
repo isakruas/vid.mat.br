@@ -135,7 +135,7 @@
 		                            <p  id="q_3_p">
 		                                3. Considere a sequência $\sqrt{2},\,\sqrt{2+\sqrt{2}},\,\sqrt{2+\sqrt{2+\sqrt{2}}},\,\ldots$.
 		                                <br />
-		                                (a) Mostre que esta sequência é limitada e monótona (portanto convergente). \emph{Sugestão:} Prove por indução que $x_n<2$, $\forall\,n\in\N$.
+		                                (a) Mostre que esta sequência é limitada e monótona (portanto convergente). \emph{Sugestão:} Prove por indução que $x_n<2$, $\forall\,n\in\mathbb{N}$.
 		                                <br />
 		                                (b) Calcule seu limite. 
 		                            </p>
