@@ -186,17 +186,9 @@
 			                                VIDEOAULA
 			                            </p>-->
 
-		                            <!-- 5 -->
+			                          	<!-- 5 -->
 		                            <p  id="q_5_p">
-		                                5. Dizemos que uma sequência $(x_n)$ é de Cauchy se para todo $\varepsilon>0$ dado podemos encontrar $n_0\in\mathbb{N}$ tal que $$m>n_0,\,n>n_0\Rightarrow|x_m-x_n|<\varepsilon.$$ Prove que:
-		                                <br />
-		                                (a) A sequência $\left(\frac{1}{n}\right)$ é de Cauchy.
-		                                <br />
-		                                (b) A sequência $(1+(-1)^n)$ não é de Cauchy.
-		                                <br />
-		                                (c) Toda sequência de Cauchy é limitada.
-		                                <br />
-		                                (d) Uma sequência é convergente se, e somente se, é de Cauchy.
+		                                5. Considere o número real $a\neq0$. Se $\lim\,\frac{y_n}{a}=1$, prove que $\lim\,y_n=a$.
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
@@ -205,7 +197,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
 			                                Solução:
 			                                <br />
-			                                Em construção.
+			                                Por hipótese, dado $\varepsilon_1>0$, existe um número natural $n_0$ tal que se $n>n_0$, então $\left| \frac{y_n}{a}-1\right|<\varepsilon$. Mas, $$\left| \frac{y_n}{a}-1\right|=\left| \frac{y_n-a}{a}\right|=\frac{|y_n-a|}{|a|}<\varepsilon_1\Rightarrow |y_n-a|<\varepsilon_1\cdot|a|.$$ Agora, para provar que $y_n\to a$, considere $\varepsilon>0$. Assim, podemos escrever $\varepsilon=$\varepsilon_1\cdot |a|$ para algum $\varepsilon_1>0$. Por hipótese, existe $n_0$ tal que se $n>n_0$, então $$\left| \frac{y_n}{a}-1\right|<\varepsilon\Rightarrow |y_n-a|<\varepsilon_1\cdot|a|=\varepsilon.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
 			                                Em construção: videoaula
@@ -219,6 +211,42 @@
 			                            <!--<p class="button primary" id="v_5" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
+
+		                            <!-- 6 -->
+		                            <p  id="q_6_p">
+		                                6. Dizemos que uma sequência $(x_n)$ é de Cauchy se para todo $\varepsilon>0$ dado podemos encontrar $n_0\in\mathbb{N}$ tal que $$m>n_0,\,n>n_0\Rightarrow|x_m-x_n|<\varepsilon.$$ Prove que:
+		                                <br />
+		                                (a) A sequência $\left(\frac{1}{n}\right)$ é de Cauchy.
+		                                <br />
+		                                (b) A sequência $(1+(-1)^n)$ não é de Cauchy.
+		                                <br />
+		                                (c) Toda sequência de Cauchy é limitada.
+		                                <br />
+		                                (d) Uma sequência é convergente se, e somente se, é de Cauchy.
+		                            </p>
+		                            <!-- Resposta -->
+		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_6_">
+			                                Em construção: dica
+			                            </p>-->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_6_">
+			                                Solução:
+			                                <br />
+			                                Em construção.
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_6_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_6" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>-->
+			                            <p class="button primary" id="r_6" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_6" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+			                            
 
 		                            
 
