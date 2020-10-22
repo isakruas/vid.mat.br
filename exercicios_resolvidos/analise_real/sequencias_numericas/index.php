@@ -53,7 +53,7 @@
 
 		                            <!-- 1 -->
 		                            <p  id="q_1_p">
-		                                1. Para a sequência $\left(\frac{n-1}{n+2}\right)$, encontre um $n_0\in\N$ tal que $n>n_0\Rightarrow|x_n-1|<0,001$.
+		                                1. Para a sequência $\left(\frac{n-1}{n+2}\right)$, encontre um $n_0\in\mathbb{N}$ tal que $n>n_0\Rightarrow|x_n-1|<0,001$.
 		                            </p>
 		                            <!-- Resposta -->
 		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
@@ -66,16 +66,16 @@
 			                                <br />
 			                                Vamos provar que a sequência $\left(\frac{n-1}{n+2}\right)$ converge para 1.
 			                                <br />
-			                                Rascunho: \left| \frac{n-1}{n+2}-1\right|=\left| \frac{-3}{n+2}-1\right|=\frac{3}{n+2}<\varepsilon\Rightarrow 3<\varepsilon(n+2)\Rightarrow n>\frac{3}{\varepsilon}-2$
+			                                Rascunho: $\left| \frac{n-1}{n+2}-1\right|=\left| \frac{-3}{n+2}-1\right|=\frac{3}{n+2}<\varepsilon\Rightarrow 3<\varepsilon(n+2)\Rightarrow n>\frac{3}{\varepsilon}-2$
 			                                <br />
 			                                Sendo assim, dado $\varepsilon=0,001$ basta tomar um número natural $n_0>\frac{3}{\varepsilon}-2=2998$. Daí, tomando $n_0=3000$ temos que se $n>3000$, então $$\left| \frac{n-1}{n+2}-1\right|=\frac{3}{n+2}<\frac{3}{3002}<0,001.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Em construção: videoaula
 			                            </p>-->
-			                            <!--<p class="button primary" id="d_1" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>-->
+			                            </p>
 			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
@@ -87,17 +87,19 @@
 		                            <p  id="q_2_p">
 		                                2. Prove que:
 		                                <br />
-		                                (a) $\lim \frac{n}{n+1}=1$
+		                                (a) $\displaystyle\lim \frac{n}{n+1}=1$
 		                                <br />
-		                                (b) $\lim \frac{3n^2+4n}{n^2+n-4}=3$
+		                                (b) $\displaystyle\lim \frac{3n^2+4n}{n^2+n-4}=3$
 		                                <br />
-		                                (c) $\lim \frac{5n}{n+\mathrm{sen}\,(2n)}=5$
+		                                (c) $\displaystyle\lim \frac{5n}{n+\mathrm{sen}\,(2n)}=5$
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
-			                                
+			                                (b) Use que se $n>12$, então $n^2+n-4>0$, $n+12\leq 2n$ e $4<\frac{n^2}{2}$.
+			                                <br />
+			                                (c) Use que $|\mathrm{sen}\,x|\leq1$ para todo $x\in\mathbb{R}$ e $|x|-|y|\leq |x-y|$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
@@ -105,13 +107,16 @@
 			                                (a) Rascunho: $\left| \frac{n}{n+1}-1\right|=\left| \frac{1}{n+1}\right|=\frac{1}{n+1}<\varepsilon\Rightarrow n>\frac{1}{\varepsilon}-1$
 			                                <br />
 			                                Resposta: Dado $\varepsilon>0$, basta tomar um número natural $n_0>\frac{1}{\varepsilon}-1$. De fato, se $n>n_0>\frac{1}{\varepsilon}-1$ temos que $\frac{1}{n+1}<\varepsilon$ e, além disso, $$\left| \frac{n}{n+1}-1\right|=\frac{1}{n+1}<\varepsilon.$$
-			                                <br /><br />
+			                                <br />
 			                                (b) Rascunho: $\left| \frac{3n^2+4n}{n^2+n-4}-3\right|=\left| \frac{n+12}{n^2+n-4}\right|=\frac{n+12}{|n^2+n-4|}$. Observe que se $n>12$, então $n^2+n-4>0$, $n+12\leq 2n$ e $4<\frac{n^2}{2}$. Utilizando esta escolha para $n$, $\left| \frac{3n^2+4n}{n^2+n-4}-3\right|=\frac{n+12}{|n^2+n-4|}<\frac{n+12}{n^2+n-4}<\frac{n+12}{n^2-4}<\frac{2n}{n^2-4}<\frac{2n}{n^2-\frac{n^2}{2}}=\frac{4}{n}<\varepsilon.$
 			                                <br />
 			                                Resposta: Dado $\varepsilon>0$, basta tomar um número natural $n_0>\max\left\{\frac{4}{\varepsilon},12\right\}$. De fato, se $n>n_0>\max\left\{\frac{4}{\varepsilon},12\right\}$ temos que $n>\frac{4}{\varepsilon}$ e $n>12$. Assim, $\frac{4}{n}<\varepsilon$, $n^2+n-4>0$, $n+12\leq 2n$ e $4<\frac{n^2}{2}$. Logo, $$\left| \frac{3n^2+4n}{n^2+n-4}-3\right|=\frac{n+12}{|n^2+n-4|}<\frac{4}{n}<\varepsilon.$$
-			                                <br /><br />
-			                                (c) 
-			                                
+			                                <br />
+			                                (c) Inicialmente, observe que $|\mathrm{sen}\,(2n)|\leq 1$ para todo $n\in\mathbb{N}$ e que $$|n+\mathrm{sen}\,(2n)|=|n-(-\mathrm{sen}\,(2n))|\geq |n|-|-\mathrm{sen}\,(2n)|=n-|\mathrm{sen}\,(2n)|\Rightarrow \frac{1}{|n+\mathrm{sen}\,(2n)|}\leq\frac{1}{n-|\mathrm{sen}\,(2n)|}.$$
+			                                <br />
+			                                Rascunho: $\left| \frac{5n}{n+\mathrm{sen}\,(2n)}-5\right|=\frac{5|\mathrm{sen}\,(2n)|}{|n+\mathrm{sen}\,(2n)|}\leq \frac{5}{|n+\mathrm{sen}\,(2n)|}\leq \frac{5}{n-|\mathrm{sen}\,(2n)|}\leq \frac{3}{n-1}<\varepsilon\Rightarrow n>\frac{3}{\varepsilon}+1$
+			                                <br />
+			                                Resposta: Dado $\varepsilon>0$, basta tomar um número natural $n_0>\frac{3}{\varepsilon}+1$. De fato, se $n>n_0>\frac{3}{\varepsilon}+1$ temos que $\frac{3}{n-1}<\varepsilon$, logo $$\left| \frac{5n}{n+\mathrm{sen}\,(2n)}-5\right|\leq \frac{3}{n-1}<\varepsilon.$$                            
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Em construção: videoaula
