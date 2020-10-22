@@ -53,14 +53,32 @@
 												<li><a href="conjuntos_fien/" class="button">Abrir</a></li>
 											</ul>
 										</article>
+										
 										<article>
-											 
 											<h3>Corpo ordenado e números reais</h3>
 											<p></p>
 											<ul class="actions">
 												<li><a href="corpo_ordenado_e_numeros_reais/" class="button">Abrir</a></li>
 											</ul>
 										</article>
+
+										<article>
+											<h3>Sequências numéricas</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="sequencias_numericas/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+
+
+
+
+
+
+
+
+
 					 
 									</div>
 								</section>

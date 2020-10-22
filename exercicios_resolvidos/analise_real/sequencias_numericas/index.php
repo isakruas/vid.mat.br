@@ -1,0 +1,297 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149861614-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-149861614-2');
+</script>
+
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Vid.Mat.Br</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../../assets/css/main.css" />
+	    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML-full"></script>
+	    <script type="text/x-mathjax-config">MathJax.Hub.Config({ showProcessingMessages: false, tex2jax: { inlineMath: [['$','$'],['<br />(','<br />)']] } }); </script>
+
+	    <link rel="apple-touch-icon" sizes="120x120" href="../../../images/favicon/apple-touch-icon.png">
+	    <link rel="icon" type="image/png" sizes="32x32" href="../../../images/favicon/favicon-32x32.png">
+	    <link rel="icon" type="image/png" sizes="16x16" href="../../../images/favicon/favicon-16x16.png">
+
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main" onclick="document.getElementById('rtn').style.display = 'none'">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="../" class="logo"><strong>VOLTAR</strong></a>
+								</header>
+
+
+							<!-- Content -->
+								<section>
+
+									<h2>Sequências numéricas</h2>
+
+									<hr class="major" />
+
+		                            <!-- 1 -->
+		                            <p  id="q_1_p">
+		                                1. Para a sequência $\left(\frac{n-1}{n+2}\right)$, encontre um $n_0\in\N$ tal que $n>n_0\Rightarrow|x_n-1|<0,001$.
+		                            </p>
+		                            <!-- Resposta -->
+		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
+			                                Dica:
+			                                <br />
+			                                Observe que o enunciado indica que a sequência $\left(\frac{n-1}{n+2}\right)$ converge para 1. Prove este resultado para facilitar a escolha do número natural $n_0$.
+			                            </p>
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
+			                                Solução:
+			                                <br />
+			                                Vamos provar que a sequência $\left(\frac{n-1}{n+2}\right)$ converge para 1.
+			                                <br />
+			                                Rascunho: \left| \frac{n-1}{n+2}-1\right|=\left| \frac{-3}{n+2}-1\right|=\frac{3}{n+2}<\varepsilon\Rightarrow 3<\varepsilon(n+2)\Rightarrow n>\frac{3}{\varepsilon}-2$
+			                                <br />
+			                                Sendo assim, dado $\varepsilon=0,001$ basta tomar um número natural $n_0>\frac{3}{\varepsilon}-2=2998$. Daí, tomando $n_0=3000$ temos que se $n>3000$, então $$\left| \frac{n-1}{n+2}-1\right|=\frac{3}{n+2}<\frac{3}{3002}<0,001.$$
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_1" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>-->
+			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_1" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+		                            <!-- 2 -->
+		                            <p  id="q_2_p">
+		                                2. Prove que:
+		                                <br />
+		                                (a) $\lim \frac{n}{n+1}=1$
+		                                <br />
+		                                (b) $\lim \frac{3n^2+4n}{n^2+n-4}=3$
+		                                <br />
+		                                (c) $\lim \frac{5n}{n+\mathrm{sen}\,(2n)}=5$
+		                            </p>
+		                            <!-- Resposta -->
+		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
+			                                Dica:
+			                                <br />
+			                                
+			                            </p>
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
+			                                Solução:
+			                                <br />
+			                                (a) Rascunho: $\left| \frac{n}{n+1}-1\right|=\left| \frac{1}{n+1}\right|=\frac{1}{n+1}<\varepsilon\Rightarrow n>\frac{1}{\varepsilon}-1$
+			                                <br />
+			                                Resposta: Dado $\varepsilon>0$, basta tomar um número natural $n_0>\frac{1}{\varepsilon}-1$. De fato, se $n>n_0>\frac{1}{\varepsilon}-1$ temos que $\frac{1}{n+1}<\varepsilon$ e, além disso, $$\left| \frac{n}{n+1}-1\right|=\frac{1}{n+1}<\varepsilon.$$
+			                                <br /><br />
+			                                (b) Rascunho: $\left| \frac{3n^2+4n}{n^2+n-4}-3\right|=\left| \frac{n+12}{n^2+n-4}\right|=\frac{n+12}{|n^2+n-4|}$. Observe que se $n>12$, então $n^2+n-4>0$, $n+12\leq 2n$ e $4<\frac{n^2}{2}$. Utilizando esta escolha para $n$, $\left| \frac{3n^2+4n}{n^2+n-4}-3\right|=\frac{n+12}{|n^2+n-4|}<\frac{n+12}{n^2+n-4}<\frac{n+12}{n^2-4}<\frac{2n}{n^2-4}<\frac{2n}{n^2-\frac{n^2}{2}}=\frac{4}{n}<\varepsilon.$
+			                                <br />
+			                                Resposta: Dado $\varepsilon>0$, basta tomar um número natural $n_0>\max\left\{\frac{4}{\varepsilon},12\right\}$. De fato, se $n>n_0>\max\left\{\frac{4}{\varepsilon},12\right\}$ temos que $n>\frac{4}{\varepsilon}$ e $n>12$. Assim, $\frac{4}{n}<\varepsilon$, $n^2+n-4>0$, $n+12\leq 2n$ e $4<\frac{n^2}{2}$. Logo, $$\left| \frac{3n^2+4n}{n^2+n-4}-3\right|=\frac{n+12}{|n^2+n-4|}<\frac{4}{n}<\varepsilon.$$
+			                                <br /><br />
+			                                (c) 
+			                                
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <p class="button primary" id="d_2" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>
+			                            <p class="button primary" id="r_2" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_2" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+		                            <!-- 3 -->
+		                            <p  id="q_3_p">
+		                                3. 
+		                            </p>
+		                            <!-- Resposta -->
+		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                                Em construção: dica
+			                            </p>-->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
+			                                
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_3" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>-->
+			                            <p class="button primary" id="r_3" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_3" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+		                            <!-- 4 -->
+		                            <p  id="q_4_p">
+		                                4. Considere a sequência $\sqrt{2},\,\sqrt{2+\sqrt{2}},\,\sqrt{2+\sqrt{2+\sqrt{2}}},\,\ldots$.
+		                                <br />
+		                                (a) Mostre que esta sequência é limitada e monótona (portanto convergente). \emph{Sugestão:} Prove por indução que $x_n<2$, $\forall\,n\in\N$.
+		                                <br />
+		                                (b) Calcule seu limite. 
+		                            </p>
+		                            <!-- Resposta -->
+		                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
+			                                Em construção: dica
+			                            </p>-->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
+			                                Solução:
+			                                <br />
+			                                (a) 
+			                                <br />
+			                                (b) 
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_4" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>-->
+			                            <p class="button primary" id="r_4" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_4" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+		                            <!-- 5 -->
+		                            <p  id="q_5_p">
+		                                5. Mostre que a sequência $\left(\frac{n^2-1}{n}\right)$ é divergente.
+		                            </p>
+		                            <!-- Resposta -->
+		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
+			                                Em construção: dica
+			                            </p>-->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
+			                                Solução:
+			                                <br />
+			                                
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_5" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>-->
+			                            <p class="button primary" id="r_5" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_5" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+		                            <!-- 6 -->
+		                            <p  id="q_6_p">
+		                                6. Dizemos que uma sequência $(x_n)$ é de Cauchy se para todo $\varepsilon>0$ dado podemos encontrar $n_0\in\N$  tal que $$m>n_0,\,n>n_0\Rightarrow|x_m-x_n|<\varepsilon.$$ Prove que:
+		                                <br />
+		                                (a) A sequência $\left(\frac{1}{n}\right)$ é de Cauchy.
+		                                <br />
+		                                (b) A sequência $(1+(-1)^n)$ não é de Cauchy.
+		                                <br />
+		                                (c) Toda sequência de Cauchy é limitada.
+		                                <br />
+		                                (d) Uma sequência é convergente se, e somente se, é de Cauchy.
+		                            </p>
+		                            <!-- Resposta -->
+		                            	<!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_6_">
+			                                Dica:
+			                                <br />
+			                                (a) Use a desigualdade de Bernoulli e o fato de que $\mathbb{N}$ é ilimitado superiormente sobre $K$ (isto significa que $K$ é um corpo arquimediano).
+			                                <br />
+			                                (b) Prove que $0$ é a maior das contas inferiores usando a contrapositiva.
+			                            </p>-->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_6_">
+			                                Solução:
+			                                <br />
+			                                Em construção.
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_6_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_6" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>-->
+			                            <p class="button primary" id="r_6" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_6" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+ 							<?php 
+								echo file_get_contents('../../../assets/php/search.php');
+							?>
+							<!-- Menu -->
+ 							<?php 
+								echo file_get_contents('../../../assets/php/menu.php');
+							?>
+
+							<footer id="footer">
+								<?php 
+									echo file_get_contents('../../../assets/php/footer.php');
+								?>
+							</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../../assets/js/jquery.min.js"></script>
+			<script src="../../../assets/js/browser.min.js"></script>
+			<script src="../../../assets/js/breakpoints.min.js"></script>
+			<script src="../../../assets/js/util.js"></script>
+			<script src="../../../assets/js/main.js"></script>
+
+	</body>
+</html>
