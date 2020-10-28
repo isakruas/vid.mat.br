@@ -104,6 +104,15 @@
 											</ul>
 										</article>
 
+										<article>
+										 
+											<h3>Equações diofantinas</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="equacoes_diofantinas/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
 
 
 

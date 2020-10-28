@@ -48,40 +48,43 @@
 							<!-- Content -->
 								<section>
 
-									<h2>Números primos</h2>
+									<h2>Equações diofantinas</h2>
 
 									<hr class="major" />
 
 		                            <!-- 1 -->
 		                            <p id="q_1_p">
-		                                1. Dizemos que os inteiros $a$ e $b$ são primos entre si se $\textrm{mdc}(a,b)=1$. Mostre que:
+		                                1. Verifique se as equações diofantinas abaixo possuem solução e, caso positivo, determine todas as soluções inteiras.
 		                                <br />
-		                                (a) Dois números inteiros consecutivos são primos entre si.
+		                                (a) $56x + 72y = 40$
 		                                <br />
-		                                (b) Se $a$ e $b$ são inteiros primos entre si, $a\mid c$ e $b\mid c$, então $ab\mid c$.
+		                                (b) $−124x + 52y = −20$
+		                                <br />
+		                                (c) $20x + 36y = 42$
 		                            </p>
 		                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
-			                                (a) 
-			                            </p>-->
+			                                Lembre-se que uma equação diofantina $ax+by=c$ possui solução se, e somente se, $\textrm{mdc}(a,b)$ divide $c$.
+			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                (a) Sejam $n$ e $n+1$ dois números inteiros consecutivos. Se $a\mid n$ e $a\mid (n+1)$, então $a\mid [(n+1)-n]\Rightarrow a\mid 1\Rightarrow a=\pm1$, ou seja, os únicos divisores comuns de $n$ e $n+1$ não $\pm1$, logo $\textrm{mdc}(n,n+1)=1$.
+			                                (a) Sabemos que $\textrm{mdc}(56,72)=8$ e $8\mid 40$, logo a equação diofantina possui solução. Para determinar uma solução particular da equação, vamos realizar as divisões sucessivas: $$\begin{matrix} 72 & = & 56\cdot1 & + & 16 \\ 56 & = & 16\cdot3 & + & 8 \\ 16 & = & 8\cdot2 & + & 0 \end{matrix}$$
+			                                Daí, $8=56-16\cdot 3=56-(72-56\cdot1)\cdot 3=56\cdot 4+72\cdot (-3)$, ou seja, $(32,-15)$ é uma solução particular. Portanto, a sulução geral é da forma $x=32+9k$ e $y=-15-7k$, onde $k\in\mathbb{Z}$.
 						
 			                                <br />
-			                                (b) Por hipótese, $c=ak$ e $c=bq$, onde $k,q\in\mathbb{Z}$. Se $\textrm{mdc}(a,b)=1$, então existem inteiros $x$ e $y$ tais que $ax+by=1\Rightarrow axc+byc=c\Rightarrow ax(bq)+by(ak)=c\Rightarrow ab(xq+yk)=c\Rightarrow ab\mid c$.
+			                                (b) 
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Videoaula:
 			                                <br />
 			                                
 			                            </p>-->
-			                            <!--<p class="button primary" id="d_1" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>-->
+			                            </p>
 			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
