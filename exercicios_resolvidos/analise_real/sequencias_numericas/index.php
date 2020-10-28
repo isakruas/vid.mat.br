@@ -143,9 +143,9 @@
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                                Dica: 
 			                            	<br />
-			                            	(a) Inicialmente, observe que $x_{n+1}=\sqrt{2+x_n}$ para todo $n\in\mathbb{N}$. Sendo assim, prove que $x _n<2$ para todo $n\in\mathbb{N}$ utilizando indução e conclua que $0< x _n<2$ para todo $n\in\mathbb{N}$. Use indução novamente para provar que a sequência é monótona crescente.
+			                            	(a) Inicialmente, observe que $x_{n+1}=\sqrt{2+x_n}$ para todo $n\in\mathbb{N}$. Sendo assim, prove que $x _n<2$ para todo $n\in\mathbb{N}$ utilizando indução e conclua que a sequência está limitada entre 0 e 2. Use indução novamente para provar que a sequência é monótona crescente.
 			                            	<br />
-			                            	(b) Escreva $lim\,x_n=L$ e desenvolva o limite $lim\,x_{n+1}=L$.
+			                            	(b) Escreva $\lim\,x_n=L$ e desenvolva o limite $\lim\,x_{n+1}=L$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                            	Solução: 
@@ -160,7 +160,7 @@
 			                            	<br />
 			                            	Para $n=1$, $x_1=\sqrt{2}<\sqrt{2+\sqrt{2}}=x_2$. Suponha que $x_n < x_{n+1}\Rightarrow x_n+2 < x_{n+1}+2\Rightarrow \sqrt{x_n+2} < \sqrt{x_{n+1}+2}\Rightarrow x_{n+1}< x_{n+2}$ e o resultado é válido para $n+1$. Pelo primeiro princípio de indução a afirmação é válida.
 			                            	<br /><br />
-			                            	(b) Pelo item (a), existe $lim\,x_n=L$. Assim, $lim\,x_{n+1}=L$ e $$L=\lim\,\sqrt{2+x_n}=\sqrt{2+L}\Rightarrow L=\sqrt{2+L}\Rightarrow L^2-L-2=0,$$ daí $L=2$ ou $L=-1$ (não é possível, pois $0< x _n<2$ para todo $n\in\mathbb{N}$). Portanto, $lim\,x_n=2$.
+			                            	(b) Pelo item (a), existe $\lim\,x_n=L$. Assim, $\lim\,x_{n+1}=L$ e $$L=\lim\,\sqrt{2+x_n}=\sqrt{2+L}\Rightarrow L=\sqrt{2+L}\Rightarrow L^2-L-2=0,$$ daí $L=2$ ou $L=-1$ (não é possível, pois $0< x _n<2$ para todo $n\in\mathbb{N}$). Portanto, $\lim\,x_n=2$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
@@ -180,19 +180,22 @@
 		                                4. Mostre que a sequência $\left(\frac{n^2-1}{n}\right)$ é divergente.
 		                            </p>
 		                            <!-- Resposta -->
-		                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
-			                                Em construção: dica
-			                            </p>-->
+		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
+			                                Dica:
+			                                <br />
+			                                Prove que $\lim\,\frac{n^2-1}{n}=\infty$.
+			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
-			                                
+			                                <br />
+			                                Vamos mostrar que $\lim\,\frac{n^2-1}{n}=\infty$. De fato, dado $A>0$, basta tomar um número natural $n_0>\frac{A+\sqrt{A^2+4}}{2}$ para que se $n>n_0$, então $x_n>A$. Com efeito, se $n>n_0>\frac{A+\sqrt{A^2+4}}{2}$ temos que $$n>\frac{A+\sqrt{A^2+4}}{2}\Rightarrow 2n>A+\sqrt{A^2+4}\Rightarrow 2n-A>\sqrt{A^2+4}\Rightarrow 4n^2-4An+A^2>A^2+4\Rightarrow \frac{n^2-1}{n}>A.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Em construção: videoaula
 			                            </p>-->
-			                            <!--<p class="button primary" id="d_4" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_4" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>-->
+			                            </p>
 			                            <p class="button primary" id="r_4" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
