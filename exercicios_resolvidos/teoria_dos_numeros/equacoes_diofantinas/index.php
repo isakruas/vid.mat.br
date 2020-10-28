@@ -66,16 +66,17 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
-			                                Lembre-se que uma equação diofantina $ax+by=c$ possui solução se, e somente se, $\textrm{mdc}(a,b)$ divide $c$.
+			                                Lembre-se que uma equação diofantina $ax+by=c$ possui solução se, e somente se, $\textrm{mdc}(a,b)$ divide $c$. Além disso, se $(x_0,y_0)$ é uma solução particular da equação diofantina, então a solução geral é $x=x_0+\frac{b}{d}k$ e $y=y_0-\frac{a}{d}k$, onde $d=\textrm{mdc}(a,b)$ e $k\in\mathbb{Z}$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
 			                                (a) Sabemos que $\textrm{mdc}(56,72)=8$ e $8\mid 40$, logo a equação diofantina possui solução. Para determinar uma solução particular da equação, vamos realizar as divisões sucessivas: $$\begin{matrix} 72 & = & 56\cdot1 & + & 16 \\ 56 & = & 16\cdot3 & + & 8 \\ 16 & = & 8\cdot2 & + & 0 \end{matrix}$$
-			                                Daí, $8=56-16\cdot 3=56-(72-56\cdot1)\cdot 3=56\cdot 4+72\cdot (-3)$, ou seja, $(32,-15)$ é uma solução particular. Portanto, a sulução geral é da forma $x=32+9k$ e $y=-15-7k$, onde $k\in\mathbb{Z}$.
-						
+			                                Daí, $8=56-16\cdot 3=56-(72-56\cdot1)\cdot 3=56\cdot 4+72\cdot (-3)\Rightarrow 56\cdot 4+72\cdot (-3)=8\Rightarrow 56\cdot 20+72\cdot (-15)=40$, ou seja, $(20,-15)$ é uma solução particular. Portanto, a sulução geral é da forma $x=20+9k$ e $y=-15-7k$, onde $k\in\mathbb{Z}$.
 			                                <br />
-			                                (b) 
+			                                (b) Como $\textrm{mdc}(-124,52)=4$ e $4\mid -20$, logo a equação diofantina possui solução. Realizando as divisões sucessivas, obtemos que $(-124)\cdot 5+52\cdot 12=4\Rightarrow (-124)\cdot(-25)+52\cdot(-60)=-20$. Logo, $(-25,-60)$ é uma solução particular para a equação diofantina. Portanto, a solução geral é $x=-60+13k$ e $y=-60+31k$, onde $k\in\mathbb{Z}$.
+			                                <br />
+			                                (c) Como $\textrm{mdc}(20,36)=4$ e $4\not\mid 42$, logo a equação diofantina não possui solução.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Videoaula:
