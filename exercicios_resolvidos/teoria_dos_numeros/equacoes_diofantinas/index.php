@@ -98,7 +98,7 @@
 		                                2. Ache todos os núumeros inteiros estritamente positivos com a seguinte propriedade: dão resto 6 quando divididos por 11 e resto 3 quando divididos por 7.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
 			                                Se $x$ é um inteiro tal que deixa resto 6 quando divididos por 11 e deixa resto 3 quando divididos por 7, então $x=11q_1+6$ e $x=7q_2+3$.
@@ -106,7 +106,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                Seja $x$ um inteiro com a propriedade informada, logo $x=11q_1+6$ e $x=7q_2+3$. Assim, $11q_1+6=7q_2+3\Rightarrow 11q_1-7q_2=-3$ e esta equação diofantina possui solução, pois $\textrm{mdc}(11,-7)=1$ e $1\mid -3$. Realizando as divisões sucessivas, obtemos que $(-3,2)$ é uma solução particular da equação e, consequentemente, a solução geral é $q_1=-3-7k$ e $q_2=2-11k$, onde $k\in\mathbb{Z}$. Daí, para que $x$ seja estritamente positivo, temos que $11q_1+6>0$ e $7q_2+3>0$. Substituindo os valores de $q_1$ e $q_2$ nestas inequação, obtemos que $k=-1,-2,-3,\ldots$. Portanto, a solução do problema pode ser escrita como $\{-77k-27\,|\,k=-1,-2,-3,\ldots\}$.
+			                                Seja $x$ um inteiro com a propriedade informada, logo $x=11q_1+6$ e $x=7q_2+3$. Assim, $11q_1+6=7q_2+3\Rightarrow 11q_1-7q_2=-3$ e esta equação diofantina possui solução, pois $\textrm{mdc}(11,-7)=1$ e $1\mid -3$. Realizando as divisões sucessivas, obtemos que $(-3,2)$ é uma solução particular da equação e, consequentemente, a solução geral é $q_1=-3-7k$ e $q_2=2-11k$, onde $k\in\mathbb{Z}$. Daí, para que $x$ seja estritamente positivo, temos que $11q_1+6>0$ e $7q_2+3>0$. Substituindo os valores de $q_1$ e $q_2$ nestas inequação, obtemos que $k=-1,-2,-3,\ldots$ Portanto, a solução do problema pode ser escrita como $\{-77k-27\,|\,k=-1,-2,-3,\ldots\}$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Videoaula:
