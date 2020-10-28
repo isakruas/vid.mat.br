@@ -98,7 +98,7 @@
 		                                (ii) Dados $a,b\in\mathbb{N}$, se $p=ab$, então $a=1$ ou $b=1$.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Em construção: dica
 			                            </p>-->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
@@ -125,7 +125,6 @@
 
 			                            <!-- 3 -->
 		                            <p id="q_3_p">
-		                                <br />
 		                                3. Um número da forma $F_n=2^{2^n}+1$ é chamado de número de Fermat.
 		                                <br />
 		                                (a) Prove que dois números de Fermat distintos são primos entre si.

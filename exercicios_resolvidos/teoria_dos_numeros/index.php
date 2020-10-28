@@ -118,7 +118,7 @@
 											<h3>Congruências</h3>
 											<p></p>
 											<ul class="actions">
-												<li><a href="equacoes_diofantinas/" class="button">Abrir</a></li>
+												<li><a href="congruencias/" class="button">Abrir</a></li>
 											</ul>
 										</article>
 

@@ -54,7 +54,13 @@
 
 		                            <!-- 1 -->
 		                            <p id="q_1_p">
-		                                1. 
+		                                1. Determine o resto da divisão de :
+		                                <br />
+		                                (a) $5^{60}$ por 26;
+		                                <br />
+		                                (b) $2006^{2006}$ por 5;
+		                                <br />
+		                                (c) $(116+17^{17})^{21}$ por 8.
 		                            </p>
 		                            <!-- Resposta -->
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
@@ -65,7 +71,11 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                
+			                                (a) $5^2 \equiv 1 \,(\textrm{mod } 26)\Rightarrow (5^2)^{30} \equiv 1^{30} \,(\textrm{mod } 26)\Rightarrow 5^{60} \equiv 1 \,(\textrm{mod } 26)\Rightarrow$ resto 1.
+			                                <br />
+			                                (b) $2006 \equiv 1 \,(\textrm{mod } 5)\Rightarrow 2006^{2006} \equiv 1^{2006} \,(\textrm{mod } 5)\Rightarrow 2006^{2006} \equiv 1 \,(\textrm{mod } 5)\Rightarrow$ resto 1.
+			                                <br />
+			                                (c) Sabemos que $116 \equiv 4 \,(\textrm{mod } 8)$ e $17 \equiv 1 \,(\textrm{mod } 8)\Rightarrow 17^{17} \equiv 1^{17} \,(\textrm{mod } 8)$. Daí, $116+17^{17} \equiv 5 \,(\textrm{mod } 8)\Rightarrow (116+17^{17})^{21} \equiv 5^{21} \,(\textrm{mod } 8)$. Mas, $$5^2\equiv 1\,(\textrm{mod } 8)\Rightarrow (5^2)^{10}\equiv 1^{10}\,(\textrm{mod } 8)\Rightarrow 5^{20}\equiv 1\,(\textrm{mod } 8)\Rightarrow 5^{21}\equiv 5\,(\textrm{mod } 8).$$ Pela transitividade, $(116+17^{17})^{21} \equiv 5 \,(\textrm{mod } 8)$ e, portanto, o resto é 5.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Videoaula:
@@ -84,11 +94,7 @@
 
 		                            <!-- 2 -->
 		                            <p id="q_2_p">
-		                                2. Seja $p\in\mathbb{Z}$. Prove que $p$ é um número primo se, e somente se, satisfaz as seguintes condições:
-		                                <br />
-		                                (i) $p>1$;
-		                                <br />
-		                                (ii) Dados $a,b\in\mathbb{N}$, se $p=ab$, então $a=1$ ou $b=1$.
+		                                2. Demonstre que se $a\equiv b\,(\textrm{mod } m)$, então $\textrm{mdc}(a,m)=\textrm{mdc}(b,m)$.
 		                            </p>
 		                            <!-- Resposta -->
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
@@ -97,9 +103,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                ($\Rightarrow$) Por definição de número primo, $p>1$. Agora, se $p=ab$, então $a\mid p\Rightarrow a=1$ ou $a=p$. Se $a=1$, então $b=p$ e caso $a=p$, tem-se $b=1$.
-			                                <br />
-			                                ($\Leftarrow$) Seja $c$ um divisor positivo de $p$ , logo $p=ck\Rightarrow c=1$ ou $k=1\Rightarrow c=1$ ou $c=p\Rightarrow p$ é primo.
+			                                Denote $\textrm{mdc}(a,m)=d$ e $\textrm{mdc}(b,m)=e$. Como $a\equiv b\,(\textrm{mod } m)$, tem-se $m\mid (a-b)\Rightarrow a=b+mk$ para algum $k\in\Z\Rightarrow e\mid a$, pois $e\mid b$ e $e\mid m\Rightarrow$ $e\mid a$ e $e\mid m$, ou seja, $e\mid d$. Pelo mesmo argumento, $d\mid e$ e, portanto, $d=e$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Videoaula:
@@ -118,42 +122,30 @@
 
 			                            <!-- 3 -->
 		                            <p id="q_3_p">
-		                                <br />
-		                                3. Um número da forma $F_n=2^{2^n}+1$ é chamado de número de Fermat.
-		                                <br />
-		                                (a) Prove que dois números de Fermat distintos são primos entre si.
-		                                <br />
-		                                (b) Use o resultado do item (a) para obter uma segunda prova da infinitude dos números primos.
+		                                3. Considere $n$ é um número inteiro positivo. Prove que $a_0$ ($0\leq a_0\leq 9$) é o algarismo das unidades de $n$ se, e somente se, $n\equiv a_0\,(\textrm{mod } 10)$. 
 		                            </p>
 		                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                            	Dica:
 			                            	<br />
-			                                (a) Prove inicialmente que $F_0F_1\cdots F_{n-1}=F_n-2$. Em seguida, considere dois inteiros distintos $m$ e $n$ (podemos supor, sem perda de generalidade, que $n< m$) e mostre que $F_m-F_0F_1\cdots F_n\cdots F_{m-1}=2$. Por último, tome um divisor comum de $F_m$ e $F_n$ e mostre, utilizando a equação anterior, que $a=\pm1$.
-			                            </p>
+			                            </p>-->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
-			                                (a) Inicialmente, vamos provar por indução que $F_0F_1\cdots F_{n-1}=F_n-2$. De fato,
+			                                Considere $n=a_n10^n+\cdots+a_1 10+a_0$, onde $0\leq a_i\leq 9$ para todo $i$ entre 0 e $n$.
 			                                <br />
-			                                (i) $n=1$: $F_0=2^{2^0}+1=3=F_1-2$.
+			                                ($\Rightarrow$) Podemos escrever que $n=10k+a_0$ com $k\in\mathbb{Z}\Rightarrow n-a_0=10k\Rightarrow 10\mid (n-a_0)\Rightarrow n\equiv a_0\,(\textrm{mod } 10)$.
 			                                <br />
-			                                (ii) Suponha que a propriedade seja válida para $n$, ou seja, $F_0F_1\cdots F_{n-1}=F_n-2$.
-			                                <br />
-			                                (iii) Para $n+1$: $$F_0F_1\cdots F_{n-1}F_n=(F_n-2)F_n=(2^{2^n}+1-2)(2^{2^n}+1)=2^{2^{n+1}}-1=2^{2^{n+1}}+1-2.$$
-			                                <br />
-											Portanto, $F_0F_1\cdots F_{n-1}F_n=F_{n+1}-2$ e, pelo primeiro princípio de indução, a propriedade é válida para todo $n\geq1$. Agora, considere $m,n\in\mathbb{Z}$ e suponha que $n< m$. Daí, $F_0F_1\cdots F_n\cdots F_{m-1}=F_m-2\Rightarrow F_m-F_0F_1\cdots F_n\cdots F_{m-1}=2$. Se $a\mid F_m$ e $a\mid F_n$, então $F_m=ak$ e $F_n=aq\Rightarrow ak-F_0F_1\cdots aq\cdots F_{m-1}=2\Rightarrow a(k-F_0F_1\cdots q\cdots F_{m-1})=2\Rightarrow a\mid 2\Rightarrow a=\pm1,\pm2$. Como $F_m$ e $F_n$ são ímpares, tem-se $a=\pm1$. Portanto, $\textrm{mdc}(F_m,F_n)=1$.
-											<br /><br />
-											(b) Sabe-se que existem infinitos números de Fermat e, como foi visto no item (a), eles não possuem fatores primos em comum. Logo, o conjunto formado pelos números primos são pode ser finito.
+			                                ($\Leftarrow$) Considere a congruência $n\equiv a\,(\textrm{mod } 10)$ com $0\leq a\leq 9$ e vamos provar que $a=a_0$. Assim, $a_n10^n+\cdots+a_1 10+a_0\equiv a\,(\textrm{mod } 10)\Rightarrow a_0\equiv a\,(\textrm{mod } 10)\Rightarrow 10\mid (a_0-a)$. Como $0\leq a,a_0\leq 9$, a única possibilidade válida é $a=a_0$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Videoaula:
 			                                <br />
 			                                <iframe width="853" height="480" src="https://www.youtube.com/embed/KkZ67G8Nev4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			                            </p>-->
-			                            <p class="button primary" id="d_3" onclick="btn2(this.id)" >
+			                            <!--<p class="button primary" id="d_3" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>
+			                            </p>-->
 			                            <p class="button primary" id="r_3" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
@@ -164,33 +156,33 @@
 
 			                            <!-- 4 -->
 		                            <p id="q_4_p">
-		                                4. Os números primos da forma $M_n=2^n-1$ ($n\in\mathbb{N}$) são chamados primos de Mersenne em homenagem ao matemático francês Marin Mersenne (1588-1648), embora já fossem conhecidos por Euclides. Se $n\in\mathbb{N}$ e $2^n-1$ é um número primo, mostre que $n$ também é primo.
+		                                4. Utilize o exercício anterior para determinar que o algarismo das unidades de $101^{101}$ e $99^{101}$.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
 			                                Dica:
 			                                <br/>
 			                                Prove utilizando a contrapositiva.
-			                            </p>
+			                            </p>-->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
 			                                <br />
-			                                Se $n\in\mathbb{N}$ é composto, então $n=ab$ com $a,b>1$. Assim, $2^a-1>1$ e $2^n-1=2^{ab}-1=(2^a)^b-1=(2^a-1)\left((2^a)^{b-1}+(2^a)^{b-2}+\cdots+(2^a)+1\right)$. Portanto, $2^n-1$ é composto e o resultado é válido.
+			                                $101\equiv 1\,(\textrm{mod } 10)\Rightarrow 101^{101}\equiv 1^{101}\,(\textrm{mod } 10)\Rightarrow 101^{101}\equiv 1\,(\textrm{mod } 10)\Rightarrow$ o algarismo das unidades de $101^{101}$ é 1. Por outro lado, $99\equiv -1\,(\textrm{mod } 10)\Rightarrow 99^{101}\equiv (-1)^{101}\,(\textrm{mod } 10)\Rightarrow 99^{101}\equiv -1\,(\textrm{mod } 10)\equiv 9\,(\textrm{mod } 10)\Rightarrow$ o algarismo das unidades de $99^{101}$ é 9.
 			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Observação:
 			                                <br />
 			                                Até a data de hoje (outubro\2020), o maior primo encontrado é o primo de Mersenne $2^{82589933}-1$ que possui 24862048 dígitos. Além disso, em 1536, Hudalrichus Regius apresentou a fatoração de $2^{11}-1 = 2047 = 23 \cdot 89$, demonstrando que a recíproca do resultado acima é falsa.
-			                            </p>
-			                            <p class="button primary" id="d_4" onclick="btn2(this.id)" >
+			                            </p>-->
+			                            <!--<p class="button primary" id="d_4" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>
+			                            </p>-->
 			                            <p class="button primary" id="r_4" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
-			                            <p class="button primary" id="v_4" onclick="btn2(this.id)" >
+			                            <!--<p class="button primary" id="v_4" onclick="btn2(this.id)" >
 			                                OBSERVAÇÃO
-			                            </p>
+			                            </p>-->
 
 
 		                            
