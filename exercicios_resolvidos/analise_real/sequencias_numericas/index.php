@@ -143,7 +143,9 @@
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                                Dica: 
 			                            	<br />
-			                            	Observe que $x_{n+1}=\sqrt{2+x_n}$ para todo $n\in\mathbb{N}$.
+			                            	(a) Inicialmente, observe que $x_{n+1}=\sqrt{2+x_n}$ para todo $n\in\mathbb{N}$. Sendo assim, prove que $x _n<2$ para todo $n\in\mathbb{N}$ utilizando indução e conclua que $0< x _n<2$ para todo $n\in\mathbb{N}$. Use indução novamente para provar que a sequência é monótona crescente.
+			                            	<br />
+			                            	(b) Escreva $lim\,x_n=L$ e desenvolva o limite $lim\,x_{n+1}=L$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                            	Solução: 
@@ -154,11 +156,11 @@
 			                            	<br />
 			                            	Para $n=1$, $x_1=\sqrt{2}<2$. Suponha que $x_n<2$ e, para $n+1$ temos que $x_{n+1}=\sqrt{2+x_n}<\sqrt{2+2}=2$. Daí, a afirmação é válida e, além disso, a sequência é limitada, pois $0< x _n<2$ para todo $n\in\mathbb{N}$.
 			                            	<br />
-			                            	Monótona (crescente): vamos provar por indução que $x_n < x_{n+1}$ para todo $n\in\matbbb{N}$.
+			                            	Monótona (crescente): vamos provar por indução que $x_n < x_{n+1}$ para todo $n\in\mathbb{N}$.
 			                            	<br />
 			                            	Para $n=1$, $x_1=\sqrt{2}<\sqrt{2+\sqrt{2}}=x_2$. Suponha que $x_n < x_{n+1}\Rightarrow x_n+2 < x_{n+1}+2\Rightarrow \sqrt{x_n+2} < \sqrt{x_{n+1}+2}\Rightarrow x_{n+1}< x_{n+2}$ e o resultado é válido para $n+1$. Pelo primeiro princípio de indução a afirmação é válida.
 			                            	<br /><br />
-			                            	(b) Pelo item (a), existe $lim\,x_n=L$. Assim, $lim\,x_{n+1}=L$ e $$L=\lim\,\sqrt{2+x_n}=\sqrt{2+L}\Rightarrow L=\sqrt{2+L}\Rightarrow L2-L-2=0,$$ daí $L=2$ ou $L=-1$ (não é possível, pois $0< x _n<2$ para todo $n\in\mathbb{N}$). 
+			                            	(b) Pelo item (a), existe $lim\,x_n=L$. Assim, $lim\,x_{n+1}=L$ e $$L=\lim\,\sqrt{2+x_n}=\sqrt{2+L}\Rightarrow L=\sqrt{2+L}\Rightarrow L^2-L-2=0,$$ daí $L=2$ ou $L=-1$ (não é possível, pois $0< x _n<2$ para todo $n\in\mathbb{N}$). Portanto, $lim\,x_n=2$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
