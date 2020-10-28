@@ -103,7 +103,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                Denote $\textrm{mdc}(a,m)=d$ e $\textrm{mdc}(b,m)=e$. Como $a\equiv b\,(\textrm{mod } m)$, tem-se $m\mid (a-b)\Rightarrow a=b+mk$ para algum $k\in\Z\Rightarrow e\mid a$, pois $e\mid b$ e $e\mid m\Rightarrow$ $e\mid a$ e $e\mid m$, ou seja, $e\mid d$. Pelo mesmo argumento, $d\mid e$ e, portanto, $d=e$.
+			                                Denote $\textrm{mdc}(a,m)=d$ e $\textrm{mdc}(b,m)=e$. Como $a\equiv b\,(\textrm{mod } m)$, tem-se $m\mid (a-b)\Rightarrow a=b+mk$ para algum $k\in\mathbb{Z}\Rightarrow e\mid a$, pois $e\mid b$ e $e\mid m\Rightarrow$ $e\mid a$ e $e\mid m$, ou seja, $e\mid d$. Pelo mesmo argumento, $d\mid e$ e, portanto, $d=e$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Videoaula:
