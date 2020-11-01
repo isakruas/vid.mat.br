@@ -71,7 +71,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                (a) $5^2 \equiv 1 \,(\textrm{mod } 26)\Rightarrow (5^2)^{30} \equiv 1^{30} \,(\textrm{mod } 26)\Rightarrow 5^{60} \equiv 1 \,(\textrm{mod } 26)\Rightarrow$ resto 1.
+			                                (a) $5^2 \equiv -1 \,(\textrm{mod } 26)\Rightarrow (5^2)^{30} \equiv (-1)^{30} \,(\textrm{mod } 26)\Rightarrow 5^{60} \equiv 1 \,(\textrm{mod } 26)\Rightarrow$ resto 1.
 			                                <br />
 			                                (b) $2006 \equiv 1 \,(\textrm{mod } 5)\Rightarrow 2006^{2006} \equiv 1^{2006} \,(\textrm{mod } 5)\Rightarrow 2006^{2006} \equiv 1 \,(\textrm{mod } 5)\Rightarrow$ resto 1.
 			                                <br />
