@@ -65,7 +65,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                Como 17 é primo e não divide 2, pelo Pequeno Teorema de Fermat, $2^{16} \equiv 1 \,(\textrm{mod } 17)$. Daí, $$2^{100000}=(2^{16})^{6250} \equiv 1^{6250} \equi 1 \,(\textrm{mod } 17).$$
+			                                Como 17 é primo e não divide 2, pelo Pequeno Teorema de Fermat, $2^{16} \equiv 1 \,(\textrm{mod } 17)$. Daí, $$2^{100000}=(2^{16})^{6250} \equiv 1^{6250} \equiv 1 \,(\textrm{mod } 17).$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Videoaula:
@@ -84,10 +84,10 @@
 
 		                            <!-- 2 -->
 		                            <p id="q_2_p">
-		                                2. Mostre que $a^7 \equi a \,(\textrm{mod } 21)$ para todo número inteiro $a$.
+		                                2. Mostre que $a^7 \equiv a \,(\textrm{mod } 21)$ para todo número inteiro $a$.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
 			                                Mostre que $7\mid (a^7-a)$ e $3\mid (a^7-a)$. Em seguida, utilize o exercício 5 de congruências para validar o resultado.
@@ -97,7 +97,7 @@
 			                                <br />
 			                                Considere $a\in\mathbb{Z}$. Pelo Pequeno Teorema de Fermat, $a^7 \equiv a \,(\textrm{mod } 7)$, ou seja, $7\mid (a^7-a)$. Agora, considere as possibilidades:
 			                                <br />
-			                                (i) $\textrm{mdc}(a,3)=1\Rightarrow a^2 \equi 1 \,(\textrm{mod } 3)\Rightarrow a^7=a^6\cdot a \equiv 1 \,(\textrm{mod } 3)$.
+			                                (i) $\textrm{mdc}(a,3)=1\Rightarrow a^2 \equiv 1 \,(\textrm{mod } 3)\Rightarrow a^7=a^6\cdot a \equiv 1 \,(\textrm{mod } 3)$.
 			                                <br />
 			                                (ii) $\textrm{mdc}(a,3)\neq1\Rightarrow a \equiv 0 \,(\textrm{mod } 3)\Rightarrow a^7 \equiv 0 \equiv a \,(\textrm{mod } 3)$.
 			                                <br />
@@ -151,7 +151,7 @@
 
 			                            <!-- 4 -->
 		                            <p id="q_4_p">
-		                                4. Determine o resto da divisão de 15! por 17. 
+		                                4. Determine o resto da divisão de $15!$ por $17$. 
 		                            </p>
 		                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
@@ -162,7 +162,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
 			                                <br />
-			                                Pelo Teorema de Wilson, $16! \equiv -1 \,(\textrm{mod } 17)$. Observe que, $16!=16\cdot15!=(17-1)15!=17\cdot 15!-15!$ e, além disso, $17\cdot 15! \equiv 0 \,(\textrm{mod } 17)$. Logo, $16! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 17\cdot 15!-15! \equiv -1 \,(\textrm{mod } 17)\Rigjtarrow -15! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 15! \equiv 1 \,(\textrm{mod } 17)$, ou seja, o resto da divisão de 15! por 17 é 1. 
+			                                Pelo Teorema de Wilson, $16! \equiv -1 \,(\textrm{mod } 17)$. Observe que, $16!=16\cdot15!=(17-1)15!=17\cdot 15!-15!$ e, além disso, $17\cdot 15! \equiv 0 \,(\textrm{mod } 17)$. Logo, $16! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 17\cdot 15!-15! \equiv -1 \,(\textrm{mod } 17)\Rightarrow -15! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 15! \equiv 1 \,(\textrm{mod } 17)$, ou seja, o resto da divisão de 15! por 17 é 1. 
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Observação:
