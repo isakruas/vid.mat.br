@@ -202,9 +202,9 @@
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
 			                                Em construção: videoaula
 			                            </p>-->
-			                            <p class="button primary" id="d_5" onclick="btn2(this.id)" >
+			                            <!--<p class="button primary" id="d_5" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>
+			                            </p>-->
 			                            <p class="button primary" id="r_5" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
