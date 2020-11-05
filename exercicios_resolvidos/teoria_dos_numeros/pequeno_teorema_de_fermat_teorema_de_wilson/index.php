@@ -48,43 +48,33 @@
 							<!-- Content -->
 								<section>
 
-									<h2>Congruências</h2>
+									<h2>Pequeno Teorema de Fermat e Teorema de Wilson</h2>
 
 									<hr class="major" />
 
 		                            <!-- 1 -->
 		                            <p id="q_1_p">
-		                                1. Determine o resto da divisão de :
-		                                <br />
-		                                (a) $5^{60}$ por 26;
-		                                <br />
-		                                (b) $2006^{2006}$ por 5;
-		                                <br />
-		                                (c) $(116+17^{17})^{21}$ por 8.
+		                                1. Calcule o resto da divisão de $2^{100000}$ por $17$.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
-			                                (a) 
-			                            </p>-->
+			                                Use o Pequeno Teorema de Fermat para $a=2$ e $p=17$.
+			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                (a) $5^2 \equiv -1 \,(\textrm{mod } 26)\Rightarrow (5^2)^{30} \equiv (-1)^{30} \,(\textrm{mod } 26)\Rightarrow 5^{60} \equiv 1 \,(\textrm{mod } 26)\Rightarrow$ resto 1.
-			                                <br />
-			                                (b) $2006 \equiv 1 \,(\textrm{mod } 5)\Rightarrow 2006^{2006} \equiv 1^{2006} \,(\textrm{mod } 5)\Rightarrow 2006^{2006} \equiv 1 \,(\textrm{mod } 5)\Rightarrow$ resto 1.
-			                                <br />
-			                                (c) Sabemos que $116 \equiv 4 \,(\textrm{mod } 8)$ e $17 \equiv 1 \,(\textrm{mod } 8)\Rightarrow 17^{17} \equiv 1^{17} \,(\textrm{mod } 8)$. Daí, $116+17^{17} \equiv 5 \,(\textrm{mod } 8)\Rightarrow (116+17^{17})^{21} \equiv 5^{21} \,(\textrm{mod } 8)$. Mas, $$5^2\equiv 1\,(\textrm{mod } 8)\Rightarrow (5^2)^{10}\equiv 1^{10}\,(\textrm{mod } 8)\Rightarrow 5^{20}\equiv 1\,(\textrm{mod } 8)\Rightarrow 5^{21}\equiv 5\,(\textrm{mod } 8).$$ Pela transitividade, $(116+17^{17})^{21} \equiv 5 \,(\textrm{mod } 8)$ e, portanto, o resto é 5.
+			                                Como 17 é primo e não divide 2, pelo Pequeno Teorema de Fermat, $2^{16} \equiv 1 \,(\textrm{mod } 17)$. Daí, $$2^{100000}=(2^{16})^{6250} \equiv 1^{6250} \equi 1 \,(\textrm{mod } 17).$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Videoaula:
 			                                <br />
 			                                
 			                            </p>-->
-			                            <!--<p class="button primary" id="d_1" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>-->
+			                            </p>
 			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
@@ -94,25 +84,33 @@
 
 		                            <!-- 2 -->
 		                            <p id="q_2_p">
-		                                2. Demonstre que se $a\equiv b\,(\textrm{mod } m)$, então $\textrm{mdc}(a,m)=\textrm{mdc}(b,m)$.
+		                                2. Mostre que $a^7 \equi a \,(\textrm{mod } 21)$ para todo número inteiro $a$.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
-			                                Em construção: dica
-			                            </p>-->
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                                Dica:
+			                                <br />
+			                                Mostre que $7\mid (a^7-a)$ e $3\mid (a^7-a)$. Em seguida, utilize o exercício 5 de congruências para validar o resultado.
+			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                Denote $\textrm{mdc}(a,m)=d$ e $\textrm{mdc}(b,m)=e$. Como $a\equiv b\,(\textrm{mod } m)$, tem-se $m\mid (a-b)\Rightarrow a=b+mk$ para algum $k\in\mathbb{Z}\Rightarrow e\mid a$, pois $e\mid b$ e $e\mid m\Rightarrow$ $e\mid a$ e $e\mid m$, ou seja, $e\mid d$. Pelo mesmo argumento, $d\mid e$ e, portanto, $d=e$.
+			                                Considere $a\in\mathbb{Z}$. Pelo Pequeno Teorema de Fermat, $a^7 \equiv a \,(\textrm{mod } 7)$, ou seja, $7\mid (a^7-a)$. Agora, considere as possibilidades:
+			                                <br />
+			                                (i) $\textrm{mdc}(a,3)=1\Rightarrow a^2 \equi 1 \,(\textrm{mod } 3)\Rightarrow a^7=a^6\cdot a \equiv 1 \,(\textrm{mod } 3)$.
+			                                <br />
+			                                (ii) $\textrm{mdc}(a,3)\neq1\Rightarrow a \equiv 0 \,(\textrm{mod } 3)\Rightarrow a^7 \equiv 0 \equiv a \,(\textrm{mod } 3)$.
+			                                <br />
+			                                Em ambos os casos, $3\mid (a^7-a)$. Como $\textrm{mdc}(3,7)=1$, $3\cdot 7=21$ divide $a^7-a$, ou seja, $a^7 \equiv a \,(\textrm{mod } 21)$.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Videoaula:
 			                                <br />
 			                                <iframe width="875" height="425" src="https://www.youtube.com/embed/GwCWqHw2Rzw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			                            </p>-->
-			                            <!--<p class="button primary" id="d_2" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_2" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>-->
+			                            </p>
 			                            <p class="button primary" id="r_2" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
@@ -122,21 +120,18 @@
 
 			                            <!-- 3 -->
 		                            <p id="q_3_p">
-		                                3. Considere $n$ é um número inteiro positivo. Prove que $a_0$ ($0\leq a_0\leq 9$) é o algarismo das unidades de $n$ se, e somente se, $n\equiv a_0\,(\textrm{mod } 10)$. 
+		                                3. Utilize o Pequeno Teorema de Fermat para mostrar que se $a$ é um número inteiro, então $a$ e $a^5$ possuem o mesmo algarismo das unidades.
 		                            </p>
 		                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                            	Dica:
 			                            	<br />
-			                            </p>-->
+			                            	Utilize o exercício 5 de congruências.
+			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
-			                                Considere $n=a_n10^n+\cdots+a_1 10+a_0$, onde $0\leq a_i\leq 9$ para todo $i$ entre 0 e $n$.
-			                                <br />
-			                                ($\Rightarrow$) Podemos escrever que $n=10k+a_0$ com $k\in\mathbb{Z}\Rightarrow n-a_0=10k\Rightarrow 10\mid (n-a_0)\Rightarrow n\equiv a_0\,(\textrm{mod } 10)$.
-			                                <br />
-			                                ($\Leftarrow$) Considere a congruência $n\equiv a\,(\textrm{mod } 10)$ com $0\leq a\leq 9$ e vamos provar que $a=a_0$. Assim, $a_n10^n+\cdots+a_1 10+a_0\equiv a\,(\textrm{mod } 10)\Rightarrow a_0\equiv a\,(\textrm{mod } 10)\Rightarrow 10\mid (a_0-a)$. Como $0\leq a,a_0\leq 9$, a única possibilidade válida é $a=a_0$.
+			                                Pelo Pequeno Teorema de Fermat, $a^5 \equiv a \,(\textrm{mod } 5)$. Como $a^5-a$ é sempre um número par, temos que $2\mid (a^5-a)\Rightarrow a^5 \equiv a \,(\textrm{mod } 2)$ e, pelo exercício 5 de congruências, $a^5 \equiv a \,(\textrm{mod } 10)$. Portanto, $a$ é um número inteiro, então $a$ e $a^5$ possuem o mesmo algarismo das unidades.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Videoaula:
@@ -156,60 +151,32 @@
 
 			                            <!-- 4 -->
 		                            <p id="q_4_p">
-		                                4. Utilize o exercício anterior para determinar que o algarismo das unidades de $101^{101}$ e $99^{101}$.
+		                                4. Determine o resto da divisão de 15! por 17. 
 		                            </p>
 		                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
 			                                Dica:
-			                                <br/>
-			                                Prove utilizando a contrapositiva.
-			                            </p>-->
+			                                <br />
+			                                Utilize o Teorema de Wilson.
+			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
 			                                Solução:
 			                                <br />
-			                                $101\equiv 1\,(\textrm{mod } 10)\Rightarrow 101^{101}\equiv 1^{101}\,(\textrm{mod } 10)\Rightarrow 101^{101}\equiv 1\,(\textrm{mod } 10)\Rightarrow$ o algarismo das unidades de $101^{101}$ é 1. Por outro lado, $99\equiv -1\,(\textrm{mod } 10)\Rightarrow 99^{101}\equiv (-1)^{101}\,(\textrm{mod } 10)\Rightarrow 99^{101}\equiv -1\,(\textrm{mod } 10)\equiv 9\,(\textrm{mod } 10)\Rightarrow$ o algarismo das unidades de $99^{101}$ é 9.
+			                                Pelo Teorema de Wilson, $16! \equiv -1 \,(\textrm{mod } 17)$. Observe que, $16!=16\cdot15!=(17-1)15!=17\cdot 15!-15!$ e, além disso, $17\cdot 15! \equiv 0 \,(\textrm{mod } 17)$. Logo, $16! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 17\cdot 15!-15! \equiv -1 \,(\textrm{mod } 17)\Rigjtarrow -15! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 15! \equiv 1 \,(\textrm{mod } 17)$, ou seja, o resto da divisão de 15! por 17 é 1. 
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
 			                                Observação:
 			                                <br />
 			                                Até a data de hoje (outubro\2020), o maior primo encontrado é o primo de Mersenne $2^{82589933}-1$ que possui 24862048 dígitos. Além disso, em 1536, Hudalrichus Regius apresentou a fatoração de $2^{11}-1 = 2047 = 23 \cdot 89$, demonstrando que a recíproca do resultado acima é falsa.
 			                            </p>-->
-			                            <!--<p class="button primary" id="d_4" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_4" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>-->
+			                            </p>
 			                            <p class="button primary" id="r_4" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
 			                            <!--<p class="button primary" id="v_4" onclick="btn2(this.id)" >
 			                                OBSERVAÇÃO
-			                            </p>-->
-
-			                            <!-- 5 -->
-			                            <p id="q_5_p">
-			                                5. Sejam $a,b,m,n\in\mathbb{Z}$ com $m,n>1$. Mostre que se $a \equiv b \,(\textrm{mod } m)$, $a \equiv b \,(\textrm{mod } n)$ e $\textrm{mdc}(m,n)=1$, então $a \equiv b \,(\textrm{mod } mn)$.
-			                            </p>
-			                            <!-- Resposta -->
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
-			                                Dica:
-			                                <br />
-			                                Em construção.
-			                            </p>-->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
-			                                Solução:
-			                                <br />
-			                                Por hipótese, $m$ e $n$ são divisores de $a-b$, logo existem inteiros $\alpha$ e $\beta$ tais que $a-b=\alpha m$ e $a-b=\beta n$. Por outro lado, como $\textrm{mdc}(m,n)=1$, existem $x,y\in\mathbb{Z}$ tais que $mx+ny=1\Rightarrow mx(a-b)+ny(a-b)=a-b\Rightarrow mx(\beta n)+ny(\alpha m)=a-b\Rightarrow a-b=mn(x\beta+y\alpha)\Rightarrow mn\mid (a-b)$. Portanto, $a \equiv b \,(\textrm{mod } mn)$.
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
-			                                Em construção: videoaula
-			                            </p>-->
-			                            <p class="button primary" id="d_5" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_5" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_5" onclick="btn2(this.id)" >
-			                                VIDEOAULA
 			                            </p>-->
 
 

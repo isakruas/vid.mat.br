@@ -122,6 +122,15 @@
 											</ul>
 										</article>
 
+										<article>
+										 
+											<h3>Pequeno Teorema de Fermat e Teorema de Wilson</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="pequeno_teorema_de_fermat_teorema_de_wilson/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
 
 
 
