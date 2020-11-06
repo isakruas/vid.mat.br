@@ -105,11 +105,11 @@
 		                            <p  id="q_2_p">
 		                                2. Considere duas séries $\sum a_n$ e $\sum b_n$. Classique as alternativas abaixo em verdadeiro (V) ou falso (F) justificando as respostas.
 		                                <br />
-		                                (    ) Se $\sum a_n$ diverge e $c$ é uma constante real não-nula, então $\sum c\cdot a_n$ diverge.
+		                                (\;\;\;\;) Se $\sum a_n$ diverge e $c$ é uma constante real não-nula, então $\sum c\cdot a_n$ diverge.
 		                                <br />
-		                                (    ) Se $\sum a_n$ e $\sum b_n$ são séries divergentes, então $\sum (a_n+b_n)$ também é divergente.
+		                                (\;\;\;\;) Se $\sum a_n$ e $\sum b_n$ são séries divergentes, então $\sum (a_n+b_n)$ também é divergente.
 		                                <br />
-		                                (    ) Se $\sum a_n$ é convergente e $\sum b_n$ divergente, então $\sum (a_n+b_n)$ pode ser convergente.
+		                                (\;\;\;\;) Se $\sum a_n$ é convergente e $\sum b_n$ divergente, então $\sum (a_n+b_n)$ pode ser convergente.
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
@@ -122,11 +122,11 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                ( V ) Observe que se $\sum c\cdot a_n$ converge, então $\sum a_n$ também converge. De fato, se a sequência das somas parciais da série $\sum a_n$ é $(s_n)$, então a sequência das somas parciais de $\sum c\cdot a_n$ é $(c\cdot s_n)$ e, além disso, $\lim\,c\cdot s_n=S$, onde $S\in\mathbb{R}$. Pelas propriedades de limite de sequência temos que $\lim\,\frac{1}{c}\left(c\cdot s_n\right)=\frac{S}{c}\Rightarrow \lim\, s_n=\frac{S}{c}$ e, portanto, a afirmação é válida. A contrapositiva nos diz que a questão é verdadeira.
+			                                (\;V\;) Observe que se $\sum c\cdot a_n$ converge, então $\sum a_n$ também converge. De fato, se a sequência das somas parciais da série $\sum a_n$ é $(s_n)$, então a sequência das somas parciais de $\sum c\cdot a_n$ é $(c\cdot s_n)$ e, além disso, $\lim\,c\cdot s_n=S$, onde $S\in\mathbb{R}$. Pelas propriedades de limite de sequência temos que $\lim\,\frac{1}{c}\left(c\cdot s_n\right)=\frac{S}{c}\Rightarrow \lim\, s_n=\frac{S}{c}$ e, portanto, a afirmação é válida. Assim, a contrapositiva nos diz que a questão é verdadeira.
 			                                <br />
-			                                ( F ) $\sum a_n=n$ e $\sum b_n=-n$ são séries divergentes, mas $\sum (a_n+b_n)=\sum 0$ converge para 0.
+			                                (\;F\;) $\sum a_n=\sum n$ e $\sum b_n=\sum -n$ são séries divergentes, mas $\sum (a_n+b_n)=\sum 0$ converge para 0.
 			                                <br />
-			                                ( F ) $\sum (a_n+b_n)$ é sempre divergente. De fato, se $\sum (a_n+b_n)$ fosse convergente, então $\sum (a_n+b_n)-a_n=\sum b_n$ seria divergente, que é uma contradição.
+			                                (\;F\;) $\sum (a_n+b_n)$ é sempre divergente. De fato, se $\sum (a_n+b_n)$ fosse convergente, então $\sum \left[(a_n+b_n)-a_n\right]=\sum b_n$ seria divergente, que é uma contradição.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Em construção: videoaula
@@ -143,18 +143,18 @@
 
 		                            <!-- 3 -->
 		                            <p  id="q_3_p">
-		                                3. Expresse o número $10,1\overline{35}=10,135353535\ddots$ como uma razão de inteiros.
+		                                3. Expresse o número $10,1\overline{35}=10,135353535\ldots$ como uma razão de inteiros.
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                                Dica: 
 			                            	<br />
-			                            	Observe que $10,1\overline{35}=10+0,1+0,035353535\ddots$, onde $0,035353535\ddots$ pode ser representado por uma série geométrica convergente.
+			                            	Observe que $10,1\overline{35}=10+0,1+0,035353535\ldots$, onde $0,035353535\ldots$ pode ser representado por uma série geométrica convergente.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                            	Solução: 
 			                            	<br />
-			                            	Note que $10,1\overline{35}=10+0,1+0,035353535\ddots$ e $$0,035353535=0,035+0,00035+\cdots=\frac{35}{1000}+\frac{35}{100000}+\cdots=\sum_{n=1}^{\infty} \frac{35}{10}\left(\frac{1}{100}\right)^n.$$ Assim, essa série geométrica é convergente e $\sum_{n=1}^{\infty} \frac{35}{10}\left(\frac{1}{100}\right)^n=\frac{\frac{35}{10}}{1-\frac{1}{100}}=\frac{35}{990}$. Portanto, $$10,1\overline{35}=10+0,1+0,035353535\ddots=10+\frac{1}{10}+\frac{35}{990}=\frac{5017}{495}.$$
+			                            	Note que $10,1\overline{35}=10+0,1+0,035353535\ldots$ e $$0,035353535=0,035+0,00035+\cdots=\frac{35}{1000}+\frac{35}{100000}+\cdots=\sum_{n=1}^{\infty} \frac{35}{10}\left(\frac{1}{100}\right)^n.$$ Assim, essa série geométrica é convergente e $\sum_{n=1}^{\infty} \frac{35}{10}\left(\frac{1}{100}\right)^n=\frac{\frac{35}{10}}{1-\frac{1}{100}}=\frac{35}{990}$. Portanto, $$10,1\overline{35}=10+0,1+0,035353535\ldots=10+\frac{1}{10}+\frac{35}{990}=\frac{5017}{495}.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Em construção: videoaula
