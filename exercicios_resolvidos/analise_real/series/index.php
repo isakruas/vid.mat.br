@@ -105,11 +105,11 @@
 		                            <p  id="q_2_p">
 		                                2. Considere duas séries $\sum a_n$ e $\sum b_n$. Classique as alternativas abaixo em verdadeiro (V) ou falso (F) justificando as respostas.
 		                                <br />
-		                                (\;\;\;\;) Se $\sum a_n$ diverge e $c$ é uma constante real não-nula, então $\sum c\cdot a_n$ diverge.
+		                                ($\;\;\;\;$) Se $\sum a_n$ diverge e $c$ é uma constante real não-nula, então $\sum c\cdot a_n$ diverge.
 		                                <br />
-		                                (\;\;\;\;) Se $\sum a_n$ e $\sum b_n$ são séries divergentes, então $\sum (a_n+b_n)$ também é divergente.
+		                                ($\;\;\;\;$) Se $\sum a_n$ e $\sum b_n$ são séries divergentes, então $\sum (a_n+b_n)$ também é divergente.
 		                                <br />
-		                                (\;\;\;\;) Se $\sum a_n$ é convergente e $\sum b_n$ divergente, então $\sum (a_n+b_n)$ pode ser convergente.
+		                                ($\;\;\;\;$) Se $\sum a_n$ é convergente e $\sum b_n$ divergente, então $\sum (a_n+b_n)$ pode ser convergente.
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
@@ -122,11 +122,11 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                (\;V\;) Observe que se $\sum c\cdot a_n$ converge, então $\sum a_n$ também converge. De fato, se a sequência das somas parciais da série $\sum a_n$ é $(s_n)$, então a sequência das somas parciais de $\sum c\cdot a_n$ é $(c\cdot s_n)$ e, além disso, $\lim\,c\cdot s_n=S$, onde $S\in\mathbb{R}$. Pelas propriedades de limite de sequência temos que $\lim\,\frac{1}{c}\left(c\cdot s_n\right)=\frac{S}{c}\Rightarrow \lim\, s_n=\frac{S}{c}$ e, portanto, a afirmação é válida. Assim, a contrapositiva nos diz que a questão é verdadeira.
+			                                ($\;$V$\;$) Observe que se $\sum c\cdot a_n$ converge, então $\sum a_n$ também converge. De fato, se a sequência das somas parciais da série $\sum a_n$ é $(s_n)$, então a sequência das somas parciais de $\sum c\cdot a_n$ é $(c\cdot s_n)$ e, além disso, $\lim\,c\cdot s_n=S$, onde $S\in\mathbb{R}$. Pelas propriedades de limite de sequência temos que $\lim\,\frac{1}{c}\left(c\cdot s_n\right)=\frac{S}{c}\Rightarrow \lim\, s_n=\frac{S}{c}$ e, portanto, a afirmação é válida. Assim, a contrapositiva nos diz que a questão é verdadeira.
 			                                <br />
-			                                (\;F\;) $\sum a_n=\sum n$ e $\sum b_n=\sum -n$ são séries divergentes, mas $\sum (a_n+b_n)=\sum 0$ converge para 0.
+			                                ($\;$F$\;$) $\sum a_n=\sum n$ e $\sum b_n=\sum -n$ são séries divergentes, mas $\sum (a_n+b_n)=\sum 0$ converge para 0.
 			                                <br />
-			                                (\;F\;) $\sum (a_n+b_n)$ é sempre divergente. De fato, se $\sum (a_n+b_n)$ fosse convergente, então $\sum \left[(a_n+b_n)-a_n\right]=\sum b_n$ seria divergente, que é uma contradição.
+			                                ($\;$F$\;$) $\sum (a_n+b_n)$ é sempre divergente. De fato, se $\sum (a_n+b_n)$ fosse convergente, então $\sum \left[(a_n+b_n)-a_n\right]=\sum b_n$ seria divergente, que é uma contradição.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Em construção: videoaula
