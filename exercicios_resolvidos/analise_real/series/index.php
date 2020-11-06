@@ -59,7 +59,7 @@
 		                                <br />
 		                                (b) $\displaystyle \sum_{n=1}^{\infty}\frac{n}{\sqrt{n^2+4}}$
 		                                <br />
-		                                (c) $\displaystyle \sum_{n=1}^{\infty} \frac{1}{\sqrt{n}}-\frac{1}{\sqrt{n+1}}$
+		                                (c) $\displaystyle \sum_{n=1}^{\infty} \left(\frac{1}{\sqrt{n}}-\frac{1}{\sqrt{n+1}}\right)$
 		                            </p>
 		                            <!-- Resposta -->
 		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
@@ -83,7 +83,7 @@
 												s_1 &=& \frac{1}{\sqrt{1}}-\frac{1}{\sqrt{2}}\;=\;1-\frac{1}{\sqrt{2}}\\
 												s_2 &=& \left(\frac{1}{\sqrt{1}}-\frac{1}{\sqrt{2}}\right)+\left(\frac{1}{\sqrt{2}}-\frac{1}{\sqrt{3}}\right)\;=\;1-\frac{1}{\sqrt{3}}\\
 												s_3 &=& \left(\frac{1}{\sqrt{1}}-\frac{1}{\sqrt{2}}\right)+\left(\frac{1}{\sqrt{2}}-\frac{1}{\sqrt{4}}\right)+\left(\frac{1}{\sqrt{3}}-\frac{1}{\sqrt{4}}\right)\;=\;1-\frac{1}{\sqrt{4}}\\
-												&\vdots& 
+												&\vdots& \\
 												s_n &=& 1-\frac{1}{\sqrt{n+1}}
 											\end{eqnarray*}
 											Assim, $\lim s_n=1$, isto é, a série converge para 1.
