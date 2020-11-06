@@ -70,6 +70,14 @@
 											</ul>
 										</article>
 
+										<article>
+											<h3>Séries</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="series/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
 
 
 
