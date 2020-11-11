@@ -103,7 +103,7 @@
 
 		                            <!-- 2 -->
 		                            <p  id="q_2_p">
-		                                2. Considere duas séries $\sum a_n$ e $\sum b_n$. Classique as alternativas abaixo em verdadeiro (V) ou falso (F) justificando as respostas.
+		                                2. Considere duas séries $\sum a_n$ e $\sum b_n$. Classifique as alternativas abaixo em verdadeiro (V) ou falso (F) justificando as respostas.
 		                                <br />
 		                                ($\;\;\;\;$) Se $\sum a_n$ diverge e $c$ é uma constante real não-nula, então $\sum c\cdot a_n$ diverge.
 		                                <br />

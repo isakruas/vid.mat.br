@@ -131,6 +131,15 @@
 											</ul>
 										</article>
 
+										<article>
+										 
+											<h3>Conjunto das classes residuais</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="conjunto_das_classes_residuais/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
 
 
 
