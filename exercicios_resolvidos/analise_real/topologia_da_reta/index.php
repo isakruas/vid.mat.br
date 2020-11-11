@@ -59,9 +59,9 @@
 		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
-			                                (i) Mostre que $\frac{1}{2}\in A$, mas $\frac{1}{2}\notin\textrm{int}(A)$, ou seja, $A\nsubset \textrm{int}(A)$.
+			                                (i) Mostre que $\frac{1}{2}\in A$, mas $\frac{1}{2}\notin\textrm{int}(A)$, ou seja, $A\not\subset \textrm{int}(A)$.
 			                                <br />
-			                                (ii) Mostre que 1 é aderente a $A$, mas $1\notin A$, ou seja, $\overline{A}\nsubset A$.
+			                                (ii) Mostre que 1 é aderente a $A$, mas $1\notin A$, ou seja, $\overline{A}\not\subset A$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
@@ -95,7 +95,7 @@
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
-			                                (a) Mostre que $\textrm{int}(\textrm{int}(X))=\textrm{int}(X)$ realizando o seguinte procedimento: tome $x\in\textrm{int}(X)$. Logo, existe $\varepsilon>0$ tal que $(x-\varepsilon,x+\varepsilon)\subset X$. Sendo assim, mostre que todo elemento do intervalo $(x-\varepsilon,x+\varepsilon)$ pertence a \textrm{int}(\textrm{int}(X))$.
+			                                (a) Mostre que $\textrm{int}(\textrm{int}(X))=\textrm{int}(X)$ realizando o seguinte procedimento: tome $x\in\textrm{int}(X)$. Logo, existe $\varepsilon>0$ tal que $(x-\varepsilon,x+\varepsilon)\subset X$. Sendo assim, mostre que todo elemento do intervalo $(x-\varepsilon,x+\varepsilon)$ pertence a $\textrm{int}(\textrm{int}(X))$.
 			                                <br />
 			                                (b) Demonstre que $\mathbb{R}-\overline{X}$ é um conjunto aberto, ou seja, $\overline{\overline{X}}=\overline{X}$.
 			                            </p>
@@ -157,17 +157,17 @@
 		                            <p id="q_4_p">
 		                                4. Determine os pontos interiores, os pontos de aderência, os pontos de acumulação, a fronteira e diga se é aberto ou fechado cada um dos seguintes conjuntos:
 		                                <br />
-		                             	(a) $A=[1,3]\uniao\{5\}$
+		                             	(a) $A=[1,3]\cup\{5\}$
 			                            <br />
 			                            (b) $B=\{1,2,3\}$
 			                            <br />
-			                            (c) $C=[1,3]\uniao\{5\}\uniao[6,9]$
+			                            (c) $C=[1,3]\cup\{5\}\cup[6,9]$
 			                            <br />
-			                            (d) $D=\Q\inter[-1,1]$
+			                            (d) $D=\mathbb{Q}\cap[-1,1]$
 			                            <br />
-			                            (e) $E=\left\{\frac{(-1)^n}{2n}\,|\,n\in\N\right\}$
+			                            (e) $E=\left\{\frac{(-1)^n}{2n}\,|\,n\in\mathbb{N}\right\}$
 			                            <br />
-			                            (f) $F=\R-\Q$
+			                            (f) $F=\m\thbb{R}-\mathbb{Q}$
 		                            </p>
 		                            <!-- Resposta -->
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
@@ -186,7 +186,7 @@
 			                                <br />
 			                                (d) $\textrm{int}(D)=\emptyset$, $\overline{D}=[-1,1]$, $D'=[-1,1]$, $\textrm{fr}(D)=[-1,1]$, $D$ não é um conjunto aberto nem fechado.
 			                                <br />
-			                                (e) $\textrm{int}(E)=\emptyset$, $\overline{E}=E\caup\{0\}$, $E'=\{0\}$, $\textrm{fr}(E)=E\cup\{0\}$, $E$ não é um conjunto aberto nem fechado.
+			                                (e) $\textrm{int}(E)=\emptyset$, $\overline{E}=E\cup\{0\}$, $E'=\{0\}$, $\textrm{fr}(E)=E\cup\{0\}$, $E$ não é um conjunto aberto nem fechado.
 			                                <br />
 			                                (f) $\textrm{int}(F)=\emptyset$, $\overline{F}=\mathbb{R}$, $F'=\mathbb{R}$, $\textrm{fr}(F)=\mathbb{R}$, $F$ não é um conjunto aberto nem fechado.
 			                            </p>
