@@ -136,7 +136,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                            	Solução: 
 			                            	<br />
-			                            	(a) $f^{-1}(A)=\left(\frac{1}{3},2\right)$ e $b^{-1}(A)=\left(-2,2\right)$ que são conjuntos abertos.
+			                            	(a) $f^{-1}(A)=\left(\frac{1}{3},2\right)$ e $g^{-1}(A)=\left(-2,2\right)$ que são conjuntos abertos.
 			                            	<br />
 			                            	(b) $f(A)=(-5,10)$ que é um conjunto aberto. Entretanto, $g(A)=[0,16)$ que não é um conjunto aberto.
 			                            </p>
