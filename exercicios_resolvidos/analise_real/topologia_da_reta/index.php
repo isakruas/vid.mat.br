@@ -167,7 +167,7 @@
 			                            <br />
 			                            (e) $E=\left\{\frac{(-1)^n}{2n}\,|\,n\in\mathbb{N}\right\}$
 			                            <br />
-			                            (f) $F=\m\thbb{R}-\mathbb{Q}$
+			                            (f) $F=\mathbb{R}-\mathbb{Q}$
 		                            </p>
 		                            <!-- Resposta -->
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
