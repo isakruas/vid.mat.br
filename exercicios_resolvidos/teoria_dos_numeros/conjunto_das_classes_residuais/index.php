@@ -66,7 +66,7 @@
 			                                <br />
 			                                (a) Na volta, utilize o Teorema de Bezout.
 			                                <br />
-			                                (b) Na ida, suponha que $\textrm{mdc}(m,a)=1$ e chegue a uma contradição. Para a volta, como $\textrm{mdc}(m,a)\neq1$, considere um divisor primo de $a$ e $m$ simultaneamente. Além disso, tilize a decomposição em fatores primos.
+			                                (b) Na ida, suponha que $\textrm{mdc}(m,a)=1$ e chegue a uma contradição. Para a volta, como $\textrm{mdc}(m,a)\neq1$, considere um divisor primo de $a$ e $m$ simultaneamente. Além disso, utilize a decomposição em fatores primos.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
@@ -128,13 +128,13 @@
 
 			                            <!-- 3 -->
 		                            <p id="q_3_p">
-		                                3. (Sonho de todo estudante) Mostre que se $p\in\mathbb{Z}$ é um primo e $\overline{a},\overline{b}{b}\in\mathbb{Z}_p$, então $$(\overline{a}+\overline{b})^p=\overline{a}^p+\overline{b}^p.$$
+		                                3. (Sonho de todo estudante) Mostre que se $p\in\mathbb{Z}$ é um primo e $\overline{a},\overline{b}\in\mathbb{Z}_p$, então $$(\overline{a}+\overline{b})^p=(\overline{a})^p+(\overline{b})^p.$$
 		                            </p>
 		                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                            	Dica:
 			                            	<br />
-			                            	Utilize a fórmula do binômio de Newton: \begin{center}$(a+b)^n=\sum_{i=0}^n \binom{n}{i}\cdot a^{n-i}\cdot a^i$, onde $\binom{n}{p}=\frac{n!}{p!\cdot(n-p)!}$. \end{center}
+			                            	<center>Utilize a fórmula do binômio de Newton: $(a+b)^n=\sum_{i=0}^n \binom{n}{i}\cdot a^{n-i}\cdot a^i$, onde $\binom{n}{p}=\frac{n!}{p!\cdot(n-p)!}$.<center>
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
