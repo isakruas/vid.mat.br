@@ -140,7 +140,7 @@
 			                                Solução:
 			                                <br />
 			                                Pela fórmula do binômio de Newton, $$(\overline{a}+\overline{b})^p=\overline{a}^p+\overline{b}^p+\sum_{k=1}^{p-1}\overline{\binom{p}{k}}(\overline{a})^{p-k}(\overline{b})^k.$$
-			                                Observe que como $p$ é primo e $1\leq k\leq p-1$, o fator $p$ não aparece no denominador de $\binom{p}{k}=\frac{p!}{k!(p-k)!}=\frac{p(p-1)!}{k!(p-k)!}$, ou seja, $\binom{p}{k}$ é um múltiplo de $p$ e $\overline{\binom{p}{k}}=\overline{0}$. Portanto, $$(\overline{a}+\overline{b})^p=\overline{a}^p+\overline{b}^p.$$
+			                                Observe que como $p$ é primo e $1\leq k\leq p-1$, o fator $p$ não aparece no denominador de $\binom{p}{k}=\frac{p!}{k!(p-k)!}=\frac{p(p-1)!}{k!(p-k)!}$, ou seja, $\binom{p}{k}$ é um múltiplo de $p$ e $\overline{\binom{p}{k}}=\overline{0}$. Portanto, $$(\overline{a}+\overline{b})^p=(\overline{a})^p+(\overline{b})^p.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Videoaula:
