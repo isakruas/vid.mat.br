@@ -54,18 +54,30 @@
 
 		                            <!-- 1 -->
 		                            <p id="q_1_p">
-		                                1. Calcule o resto da divisão de $2^{100000}$ por $17$.
+		                                1. Seja $m$ um número inteiro tal que $m\geq1$. Se $\overline{a}$ é um elemento não-nulo de $\mathbb{Z}_m$, prove que:
+										<br />
+										(a) $\overline{a}$ é uma unidade de $\mathbb{Z}_m$ se, e somente se, $\textrm{mdc}(m,a)=1$.
+										<br />
+										(b) $\overline{a}$ é um divisor de zero de $\mathbb{Z}_m$ se, e somente se, $\textrm{mdc}(m,a)\neq1$.
 		                            </p>
 		                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
-			                                Use o Pequeno Teorema de Fermat para $a=2$ e $p=17$.
+			                                (a) Na volta, utilize o Teorema de Bezout.
+			                                <br />
+			                                (b) Na ida, suponha que $\textrm{mdc}(m,a)=1$ e chegue a uma contradição. Para a volta, como $\textrm{mdc}(m,a)\neq1$, considere um divisor primo de $a$ e $m$ simultaneamente. Além disso, tilize a decomposição em fatores primos.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
 			                                <br />
-			                                Como 17 é primo e não divide 2, pelo Pequeno Teorema de Fermat, $2^{16} \equiv 1 \,(\textrm{mod } 17)$. Daí, $$2^{100000}=(2^{16})^{6250} \equiv 1^{6250} \equiv 1 \,(\textrm{mod } 17).$$
+			                                (a) ($\Rightarrow$) Se $\overline{a}$ é uma unidade, então existe $\overline{b}$ tal que $\overline{a}\overline{b}=\overline{1}$. Daí, $m\mid (ab-1)\Rightarrow ab+m(-q)=1$ e, portanto, $\textrm{mdc}(m,a)=1$.
+			                                <br />
+			                                ($\Leftarrow$) Existem inteiros $x$ e $y$ tais que $ax+by=1\Rightarrow \overline{ax+by}=\overline{1}\Rightarrow \overline{ax}+\overline{by}=\overline{1}\Rightarrow \overline{a}\,\overline{x}=1$. Logo, $\overline{a}$ é uma unidade de $\mathbb{Z}_m$.
+			                                <br /><br />
+			                                (b) ($\Rightarrow$) Por hipótese, existe $\overline{b}\neq\overline{0}$ tal que $\overline{a}\overline{b}=\overline{0}\Rightarrow m\mid ad$. Suponha que $\textrm{mdc}(m,a)=1$, logo $m\mid b\Rightarrow \overline{b}=\overline{0}$, contradição.
+			                                <br />
+			                                ($\Leftarrow$) Se $\textrm{mdc}(m,a)\neq1$, então $a$ e $m$ possuem um fator primo em comum que será denotado por $p_1$. Considerando $a=p_1q$, onde $q\in\mathbb{Z}$, e $m=p_1p_2\cdots p_r$ ($r\geq2$) a decomposição de $m$ em fatores primos, temos que $a\cdot(p_2\cdots p_r)=mq\Rightarrow \overline{a}\cdot \overline{p_2\cdots p_r}=\overline{0}$. Além disso, $\overline{p_2\cdots p_r}\neq 0$, pois $0< p_2\cdots p_r< m$, ou seja, $\overline{a}$ é um divisor de zero.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Videoaula:
@@ -84,24 +96,20 @@
 
 		                            <!-- 2 -->
 		                            <p id="q_2_p">
-		                                2. Mostre que $a^7 \equiv a \,(\textrm{mod } 21)$ para todo número inteiro $a$.
+		                                2. Seja $m$ um número inteiro tal que $m\geq1$. Prove que $\mathbb{Z}_m$ não contém divisores de zero se, e somente se, $m$ é primo.
 		                            </p>
 		                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
-			                                Mostre que $7\mid (a^7-a)$ e $3\mid (a^7-a)$. Em seguida, utilize o exercício 5 de congruências para validar o resultado.
+			                                ($\Rightarrow$) Suponha que $m$ seja composto e chegue a uma contradição.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
 			                                <br />
-			                                Considere $a\in\mathbb{Z}$. Pelo Pequeno Teorema de Fermat, $a^7 \equiv a \,(\textrm{mod } 7)$, ou seja, $7\mid (a^7-a)$. Agora, considere as possibilidades:
-			                                <br />
-			                                (i) $\textrm{mdc}(a,3)=1\Rightarrow a^2 \equiv 1 \,(\textrm{mod } 3)\Rightarrow a^7=a^6\cdot a \equiv 1 \,(\textrm{mod } 3)$.
-			                                <br />
-			                                (ii) $\textrm{mdc}(a,3)\neq1\Rightarrow a \equiv 0 \,(\textrm{mod } 3)\Rightarrow a^7 \equiv 0 \equiv a \,(\textrm{mod } 3)$.
-			                                <br />
-			                                Em ambos os casos, $3\mid (a^7-a)$. Como $\textrm{mdc}(3,7)=1$, $3\cdot 7=21$ divide $a^7-a$, ou seja, $a^7 \equiv a \,(\textrm{mod } 21)$.
+			                                ($\Rightarrow$) Suponha que $m$ seja composto. Logo, $m=rs$ com $1< r,s< m$. Assim, $\overline{r},\overline{s}\neq\overline{0}$ e $\overline{0}=\overline{m}=\overline{rs}=\overline{r}\,\overline{s}$, contradição.
+											<br />
+											($\Leftarrow$) Se $m$ é primo, então $\textrm{mdc}(m,a)=1$ para todo $a\in\{1,\ldots,m-1\}$, ou seja, $\mathbb{Z}_m$ não contém divisores de zero.
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_2_">
 			                                Videoaula:
@@ -120,27 +128,28 @@
 
 			                            <!-- 3 -->
 		                            <p id="q_3_p">
-		                                3. Utilize o Pequeno Teorema de Fermat para mostrar que se $a$ é um número inteiro, então $a$ e $a^5$ possuem o mesmo algarismo das unidades.
+		                                3. (Sonho de todo estudante) Mostre que se $p\in\mathbb{Z}$ é um primo e $\overline{a},\overline{b}{b}\in\mathbb{Z}_p$, então $$(\overline{a}+\overline{b})^p=\overline{a}^p+\overline{b}^p.$$
 		                            </p>
 		                            <!-- Resposta -->
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                            	Dica:
 			                            	<br />
-			                            	Utilize o exercício 5 de congruências.
+			                            	Utilize a fórmula do binômio de Newton: \begin{center}$(a+b)^n=\sum_{i=0}^n \binom{n}{i}\cdot a^{n-i}\cdot a^i$, onde $\binom{n}{p}=\frac{n!}{p!\cdot(n-p)!}$. \end{center}
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
 			                                <br />
-			                                Pelo Pequeno Teorema de Fermat, $a^5 \equiv a \,(\textrm{mod } 5)$. Como $a^5-a$ é sempre um número par, temos que $2\mid (a^5-a)\Rightarrow a^5 \equiv a \,(\textrm{mod } 2)$ e, pelo exercício 5 de congruências, $a^5 \equiv a \,(\textrm{mod } 10)$. Portanto, $a$ é um número inteiro, então $a$ e $a^5$ possuem o mesmo algarismo das unidades.
+			                                Pela fórmula do binômio de Newton, $$(\overline{a}+\overline{b})^p=\overline{a}^p+\overline{b}^p+\sum_{k=1}^{p-1}\overline{\binom{p}{k}}(\overline{a})^{p-k}(\overline{b})^k.$$
+			                                Observe que como $p$ é primo e $1\leq k\leq p-1$, o fator $p$ não aparece no denominador de $\binom{p}{k}=\frac{p!}{k!(p-k)!}=\frac{p(p-1)!}{k!(p-k)!}$, ou seja, $\binom{p}{k}$ é um múltiplo de $p$ e $\overline{\binom{p}{k}}=\overline{0}$. Portanto, $$(\overline{a}+\overline{b})^p=\overline{a}^p+\overline{b}^p.$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_3_">
 			                                Videoaula:
 			                                <br />
 			                                <iframe width="853" height="480" src="https://www.youtube.com/embed/KkZ67G8Nev4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			                            </p>-->
-			                            <!--<p class="button primary" id="d_3" onclick="btn2(this.id)" >
+			                            <p class="button primary" id="d_3" onclick="btn2(this.id)" >
 			                                DICA
-			                            </p>-->
+			                            </p>
 			                            <p class="button primary" id="r_3" onclick="btn2(this.id)" >
 			                                SOLUÇÃO
 			                            </p>
@@ -149,36 +158,7 @@
 			                            </p>-->
 
 
-			                            <!-- 4 -->
-		                            <p id="q_4_p">
-		                                4. Determine o resto da divisão de $15!$ por $17$. 
-		                            </p>
-		                            <!-- Resposta -->
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_4_">
-			                                Dica:
-			                                <br />
-			                                Utilize o Teorema de Wilson.
-			                            </p>
-			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_4_">
-			                                Solução:
-			                                <br />
-			                                Pelo Teorema de Wilson, $16! \equiv -1 \,(\textrm{mod } 17)$. Observe que, $16!=16\cdot15!=(17-1)15!=17\cdot 15!-15!$ e, além disso, $17\cdot 15! \equiv 0 \,(\textrm{mod } 17)$. Logo, $16! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 17\cdot 15!-15! \equiv -1 \,(\textrm{mod } 17)\Rightarrow -15! \equiv -1 \,(\textrm{mod } 17)\Rightarrow 15! \equiv 1 \,(\textrm{mod } 17)$, ou seja, o resto da divisão de 15! por 17 é 1. 
-			                            </p>
-			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_4_">
-			                                Observação:
-			                                <br />
-			                                Até a data de hoje (outubro\2020), o maior primo encontrado é o primo de Mersenne $2^{82589933}-1$ que possui 24862048 dígitos. Além disso, em 1536, Hudalrichus Regius apresentou a fatoração de $2^{11}-1 = 2047 = 23 \cdot 89$, demonstrando que a recíproca do resultado acima é falsa.
-			                            </p>-->
-			                            <p class="button primary" id="d_4" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_4" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
-			                            <!--<p class="button primary" id="v_4" onclick="btn2(this.id)" >
-			                                OBSERVAÇÃO
-			                            </p>-->
-
+			                            
 
 		                            
 
