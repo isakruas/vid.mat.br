@@ -45,22 +45,7 @@
 										<h2>Álgebra Linear I</h2>
 										</header>
 										<div class="posts">
-										<article>
-											<h3>Espaços vetoriais com produto interno</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="espaçosvetoriaiscomprodutointerno/" class="button">Abrir</a></li>
-											</ul>
-										</article>
-										<article>
 
-											 
-											<h3>Forma canônica de Jordan</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="formacanonicadejordan/" class="button">Abrir</a></li>
-											</ul>
-										</article>
 										<article>
 											 
 											<h3>Matrizes e determinantes</h3>
@@ -69,6 +54,7 @@
 												<li><a href="matrizes_e_determinantes/" class="button">Abrir</a></li>
 											</ul>
 										</article>
+
 										<article>
 											 
 											<h3>Sistemas lineares</h3>
@@ -77,14 +63,19 @@
 												<li><a href="sistemas_lineares/" class="button">Abrir</a></li>
 											</ul>
 										</article>
-										<article>
-											 
-											<h3>Transformações lineares</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="transformaçoeslineares/" class="button">Abrir</a></li>
-											</ul>
-										</article>
+
+
+
+
+
+
+
+
+
+
+
+
+										
 									</div>
 								</section>
 

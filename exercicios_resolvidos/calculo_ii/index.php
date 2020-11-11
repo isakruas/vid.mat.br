@@ -47,26 +47,21 @@
 									<div class="posts">
 
 										<article>
+											<h3>Sequências e séries</h3>
+											<p></p>
+											<ul class="actions">
+											<li><a href="sequencias_e_series/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+										<article>
 											<h3>Curvas parametrizadas e Coordenadas Polares</h3>
 											<p></p>
 											<ul class="actions">
 											<li><a href="curvas_parametrizadas_e_coordenadas_polares/" class="button">Abrir</a></li>
 											</ul>
 										</article>
-										<article>
-											<h3>Derivada direcional e vetor gradiente</h3>
-											<p></p>
-											<ul class="actions">
-											<li><a href="derivada_direcional_e_vetor_gradiente/" class="button">Abrir</a></li>
-											</ul>
-										</article>
-										<article>
-											<h3>Derivadas parciais</h3>
-											<p></p>
-											<ul class="actions">
-											<li><a href="derivadas_parciais/" class="button">Abrir</a></li>
-											</ul>
-										</article>
+
 										<article>
 											<h3>Funções de várias variáveis</h3>
 											<p></p>
@@ -74,6 +69,7 @@
 											<li><a href="funçoes_de_varias_variaveis/" class="button">Abrir</a></li>
 											</ul>
 										</article>
+
 										<article>
 											<h3>Limite e continuidade</h3>
 											<p></p>
@@ -83,12 +79,29 @@
 										</article>
 
 										<article>
-											<h3>Sequências e séries</h3>
+											<h3>Derivadas parciais</h3>
 											<p></p>
 											<ul class="actions">
-											<li><a href="sequencias_e_series/" class="button">Abrir</a></li>
+											<li><a href="derivadas_parciais/" class="button">Abrir</a></li>
 											</ul>
 										</article>
+
+
+
+
+
+										<article>
+											<h3>Derivada direcional e vetor gradiente</h3>
+											<p></p>
+											<ul class="actions">
+											<li><a href="derivada_direcional_e_vetor_gradiente/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+										
+										
+										
+
+										
 
 									</div>
 								</section>

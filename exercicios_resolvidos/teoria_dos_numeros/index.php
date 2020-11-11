@@ -47,6 +47,34 @@
 										<div class="posts">
 
 										<article>
+										 
+											<h3>Relações binárias</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="relacoes_binarias/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+
+										<article>
+											 
+											<h3>Números naturais</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="numeros_naturais/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+										<article>
+											 
+											<h3>Números inteiros</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="numeros_inteiros/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+										<article>
 
 											<h3>Divisibilidade</h3>
 											<p></p>
@@ -62,36 +90,6 @@
 											<p></p>
 											<ul class="actions">
 												<li><a href="mdc_e_mmc/" class="button">Abrir</a></li>
-											</ul>
-										</article>
-
-
-										<article>
-											 
-											<h3>Números inteiros</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="numeros_inteiros/" class="button">Abrir</a></li>
-											</ul>
-										</article>
-
-
-										<article>
-											 
-											<h3>Números naturais</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="numeros_naturais/" class="button">Abrir</a></li>
-											</ul>
-										</article>
-
-
-										<article>
-										 
-											<h3>Relações binárias</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="relacoes_binarias/" class="button">Abrir</a></li>
 											</ul>
 										</article>
 

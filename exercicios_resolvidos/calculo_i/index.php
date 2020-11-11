@@ -47,6 +47,17 @@
 									<div class="posts">
 
 										<article>
+											<h3>Limite e Continuidade</h3>
+											<p></p>
+											<ul class="actions">
+											<li><a href="limite/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+
+
+
+										<article>
 											<h3>Derivada</h3>
 											<p></p>
 											<ul class="actions">
@@ -62,13 +73,7 @@
 											</ul>
 										</article>
 
-										<article>
-											<h3>Limite e Continuidade</h3>
-											<p></p>
-											<ul class="actions">
-											<li><a href="limite/" class="button">Abrir</a></li>
-											</ul>
-										</article>
+										
 									</div>
 								</section>
 

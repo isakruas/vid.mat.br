@@ -45,16 +45,8 @@
 										<h2>Álgebra Linear II</h2>
 									</header>
 									<div class="posts">
-										<article>
-											 
-											<h3>Diagonalização de operadores</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="diagonalizaçao_de_operadores/" class="button">Abrir</a></li>
-											</ul>
-										</article>
 
-										<article>
+									<article>
 											 
 											<h3>Espaços vetoriais com produto interno</h3>
 											<p></p>
@@ -64,14 +56,6 @@
 										</article>
 
 										<article>
-											 
-											<h3>Forma canônica de Jordan</h3>
-											<p></p>
-											<ul class="actions">
-												<li><a href="forma_canonica_de_jordan/" class="button">Abrir</a></li>
-											</ul>
-										</article>
-										<article>
 										 
 											<h3>Transformações lineares</h3>
 											<p></p>
@@ -79,6 +63,42 @@
 												<li><a href="transformaçoes_lineares/" class="button">Abrir</a></li>
 											</ul>
 										</article>
+
+										<article>
+											 
+											<h3>Diagonalização de operadores</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="diagonalizaçao_de_operadores/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+										
+
+										<article>
+											 
+											<h3>Forma canônica de Jordan</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="forma_canonica_de_jordan/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										
+										
 
 									</div>
 								</section>
