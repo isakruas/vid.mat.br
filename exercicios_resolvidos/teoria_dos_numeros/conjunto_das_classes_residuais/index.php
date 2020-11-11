@@ -134,7 +134,7 @@
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
 			                            	Dica:
 			                            	<br />
-			                            	<center>Utilize a fórmula do binômio de Newton: $(a+b)^n=\sum_{i=0}^n \binom{n}{i}\cdot a^{n-i}\cdot a^i$, onde $\binom{n}{p}=\frac{n!}{p!\cdot(n-p)!}$.<center>
+			                            	Utilize a fórmula do binômio de Newton: $\displaystyle(a+b)^n=\sum_{i=0}^n \binom{n}{i}\cdot a^{n-i}\cdot b^i$, onde $\displaystyle\binom{n}{p}=\frac{n!}{p!\cdot(n-p)!}$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_3_">
 			                                Solução:
