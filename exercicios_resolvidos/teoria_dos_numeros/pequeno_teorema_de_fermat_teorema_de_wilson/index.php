@@ -68,7 +68,7 @@
 			                                Como 17 é primo e não divide 2, pelo Pequeno Teorema de Fermat, $2^{16} \equiv 1 \,(\textrm{mod } 17)$. Daí, $$2^{100000}=(2^{16})^{6250} \equiv 1^{6250} \equiv 1 \,(\textrm{mod } 17).$$
 			                            </p>
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
-			                                Videoaula:
+			                                Videoaula:sssssssssssss
 			                                <br />
 			                                
 			                            </p>-->
