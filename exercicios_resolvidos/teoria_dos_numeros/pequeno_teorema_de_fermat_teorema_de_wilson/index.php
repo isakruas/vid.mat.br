@@ -97,7 +97,7 @@
 			                                <br />
 			                                Considere $a\in\mathbb{Z}$. Pelo Pequeno Teorema de Fermat, $a^7 \equiv a \,(\textrm{mod } 7)$, ou seja, $7\mid (a^7-a)$. Agora, considere as possibilidades:
 			                                <br />
-			                                (i) $\textrm{mdc}(a,3)=1\Rightarrow a^2 \equiv 1 \,(\textrm{mod } 3)\Rightarrow a^7=a^6\cdot a \equiv 1 \,(\textrm{mod } 3)$.
+			                                (i) $\textrm{mdc}(a,3)=1\Rightarrow a^2 \equiv 1 \,(\textrm{mod } 3)\Rightarrow a^7=a^6\cdot a \equiv a \,(\textrm{mod } 3)$.
 			                                <br />
 			                                (ii) $\textrm{mdc}(a,3)\neq1\Rightarrow a \equiv 0 \,(\textrm{mod } 3)\Rightarrow a^7 \equiv 0 \equiv a \,(\textrm{mod } 3)$.
 			                                <br />
