@@ -47,7 +47,7 @@
 							<!-- Content -->
 								<section>
 
-									<h2>Topologia da reta</h2>
+									<h2>Limites de funções</h2>
 
 									<hr class="major" />
 
