@@ -59,7 +59,7 @@
 		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
-			                                Dado $\varepsilon>0$, tome $\delta=\min\left{\frac{1}{2},\frca{\varepsilon}{2}\right}$.
+			                                Dado $\varepsilon>0$, tome $\delta=\min\left{\frac{1}{2},\frac{\varepsilon}{2}\right}$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
