@@ -59,7 +59,7 @@
 		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
-			                                Dado $\varepsilon>0$, tome $\delta=\min\left{\frac{1}{2},\frac{\varepsilon}{2}\right}$.
+			                                Dado $\varepsilon>0$, tome $ \delta =\min\left{\frac{1}{2},\frac{\varepsilon}{2}\right}$.
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
@@ -79,10 +79,15 @@
 			                            <!--<p class="button primary" id="v_1" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
-
+			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >	
+			                                DICA	
+			                            </p>	
+			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >	
+			                                SOLUÇÃO	
+			                            </p>
 		                            <!-- 2 -->
 		                            <p  id="q_2_p">
-		                                
+		                               2.
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
