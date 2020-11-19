@@ -91,6 +91,7 @@
 			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >	
 			                                SOLUÇÃO	
 			                            </p>
+
 		                            <!-- 2 -->
 		                            <p  id="q_2_p">
 		                                2. Prove que o limite $\displaystyle \lim_{x\to0}\frac{1}{x^2}$ com $x>0$ não existe.
@@ -99,7 +100,7 @@
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
-			                                Use o teorema: Sejam $X\subset\mathbb{R}$, $a\in X'$ e $f:X\to\mathbb{R}$. Tem-se $\displaystyle\lim_{x\to a}\,f(x)=L$ se, e somente se, para toda sequência $(x_n)$ em $X-\{a\}$ tal que $\lim\,x_n=a$ tem-se $\lim\,f(x_n)=L$.
+			                                Use o teorema: Sejam $X\subset\mathbb{R}$, $a\in X'$ e $f:X\to\mathbb{R}$. Tem-se $\displaystyle\lim_{x\to a}\,f(x)=L$ se, e somente se, para toda sequência $(x_n)$ em $X-\{a\}$ tal que $\lim\,x_n=a$ tem-se $\lim\,f(x_n)=L$.  
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
