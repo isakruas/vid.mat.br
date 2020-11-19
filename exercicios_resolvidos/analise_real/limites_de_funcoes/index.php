@@ -59,7 +59,11 @@
 		                            <p style="display: none; background: #eee; padding: 0.5cm " id="d_1_">
 			                                Dica:
 			                                <br />
+<<<<<<< HEAD
 			                                Dado $\varepsilon>0$, tome $\delta=\min\left\{\frac{1}{2},\frac{\varepsilon}{2}\right\}$ para que a definição de limite seja satisfeita.
+=======
+			                                Dado $\varepsilon>0$, tome $ \delta =\min\left{\frac{1}{2},\frac{\varepsilon}{2}\right}$.
+>>>>>>> origin/master
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_1_">
 			                                Solução:
@@ -81,19 +85,23 @@
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Em construção: videoaula
 			                            </p>-->
-			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
+			                        
 			                            <!--<p class="button primary" id="v_1" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
-
+			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >	
+			                                DICA	
+			                            </p>	
+			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >	
+			                                SOLUÇÃO	
+			                            </p>
 		                            <!-- 2 -->
 		                            <p  id="q_2_p">
+<<<<<<< HEAD
 		                                2. Prove que o limite $\displaystyle \lim_{x\to0}\frac{1}{x^2}$ com $x>0$ não existe.
+=======
+		                               2.
+>>>>>>> origin/master
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
