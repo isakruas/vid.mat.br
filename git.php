@@ -17,7 +17,7 @@
 
 	} else {
 
-		shell_exec('mkdir tmp && chmod -R 777 tmp && cd tmp && git clone https://github.com/isakruas/vid.mat.br.git && chmod -R 777 vid.mat.br');
+		shell_exec('mkdir tmp && chmod -R 755 tmp && cd tmp && git clone https://github.com/isakruas/vid.mat.br.git && chmod -R 755 vid.mat.br');
 
 		if(is_dir("./tmp/vid.mat.br")) {	
 
