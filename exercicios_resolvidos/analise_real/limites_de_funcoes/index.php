@@ -75,12 +75,7 @@
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Em construção: videoaula
 			                            </p>-->
-			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
+			                        
 			                            <!--<p class="button primary" id="v_1" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
