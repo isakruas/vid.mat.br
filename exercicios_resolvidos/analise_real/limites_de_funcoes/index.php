@@ -81,15 +81,16 @@
 			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_1_">
 			                                Em construção: videoaula
 			                            </p>-->
-			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >
-			                                DICA
-			                            </p>
-			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >
-			                                SOLUÇÃO
-			                            </p>
+			                        
 			                            <!--<p class="button primary" id="v_1" onclick="btn2(this.id)" >
 			                                VIDEOAULA
 			                            </p>-->
+			                            <p class="button primary" id="d_1" onclick="btn2(this.id)" >	
+			                                DICA	
+			                            </p>	
+			                            <p class="button primary" id="r_1" onclick="btn2(this.id)" >	
+			                                SOLUÇÃO	
+			                            </p>
 
 		                            <!-- 2 -->
 		                            <p  id="q_2_p">
@@ -99,7 +100,7 @@
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_2_">
 			                                Dica:
 			                                <br />
-			                                Use o teorema: Sejam $X\subset\mathbb{R}$, $a\in X'$ e $f:X\to\mathbb{R}$. Tem-se $\displaystyle\lim_{x\to a}\,f(x)=L$ se, e somente se, para toda sequência $(x_n)$ em $X-\{a\}$ tal que $\lim\,x_n=a$ tem-se $\lim\,f(x_n)=L$.
+			                                Use o teorema: Sejam $X\subset\mathbb{R}$, $a\in X'$ e $f:X\to\mathbb{R}$. Tem-se $\displaystyle\lim_{x\to a}\,f(x)=L$ se, e somente se, para toda sequência $(x_n)$ em $X-\{a\}$ tal que $\lim\,x_n=a$ tem-se $\lim\,f(x_n)=L$.  
 			                            </p>
 			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_2_">
 			                                Solução:
@@ -121,7 +122,7 @@
 
 		                            <!-- 3 -->
 		                            <p  id="q_3_p">
-		                                3. Sejam $I\subset\mathbb{R}$ um intervalo, $f:I\to\mathbb{R}$ uma  função e $c\in I$. Mostre que se existem duas constantes $K$ e $L$ tais que $|f(x)-L|\leq K\,|x-c| para $x\in I$, então $\displaystyle \lim_{x\to c}\,f(x)=L$. 
+		                                3. Sejam $I\subset\mathbb{R}$ um intervalo, $f:I\to\mathbb{R}$ uma  função e $c\in I$. Mostre que se existem duas constantes $K$ e $L$ tais que $|f(x)-L|\leq K\,|x-c|$ para $x\in I$, então $\displaystyle \lim_{x\to c}\,f(x)=L$. 
 		                            </p>
 		                            <!-- Resposta -->
 		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_3_">
@@ -194,6 +195,71 @@
 			                            <!--<p class="button primary" id="v_4" onclick="btn2(this.id)" >
 			                                OBSERVAÇÃO
 			                            </p>-->
+
+			                            <!-- 5 -->
+		                            <p id="q_5_p">
+		                                5. Prove que:
+										<br />
+										(a) $\displaystyle \lim_{x\to\infty} \frac{x^2-1}{x^2+1}=1$
+										<br />
+										(b) $\displaystyle \lim_{x\to-\infty} \frac{x^2-1}{x^2+1}=1$ 
+		                            </p>
+		                            <!-- Resposta -->
+			                        <p style="display: none; background: #eee; padding: 0.5cm " id="d_5_">
+			                            	Dica:
+			                            	<br />
+			                                Para os dois itens, dado $\varepsilon>0$, basta considerar $A=\max\left\{1,\frac{2}{\varepsilon}-1\right\}$ para que a definição de limite no infitnito seja válida.
+			                            </p>
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_5_">
+			                                Solução:
+			                                <br />
+			                                (a) Dado $\varepsilon>0$, basta considerar $A=\max\left\{1,\frac{2}{\varepsilon}-1\right\}$ para que $|f(x)-1|<\varepsilon$ sempre que $x\in D$ e $x>A$. De fato, se $x>A$ tem-se $x>1\Rightarrow x^2>x$ (pois $x$ é positivo) e $x>\frac{2}{\varepsilon}-1\Rightarrow \frac{2}{x+1}<\varepsilon$. Daí, $$\left|\frac{x^2-1}{x^2+1}-1\right|=\left|\frac{-2}{x^2+1}\right|=\frac{2}{x^2+1}<\frac{2}{x+1}<\varepsilon.$$
+			                                <br />
+			                               	(b) Dado $\varepsilon>0$, basta considerar $A=\max\left\{1,\frac{2}{\varepsilon}-1\right\}$ para que $|f(x)-1|<\varepsilon$ sempre que $x\in D$ e $x<-A$. De fato, se $x<-A$ tem-se $x<-1\Rightarrow x^2>x$ (pois $x$ é negativo) e $x<-\left(\frac{2}{\varepsilon}-1\right)\Rightarrow \frac{2}{-x+1}<\varepsilon$. Daí, $$\left|\frac{x^2-1}{x^2+1}-1\right|=\left|\frac{-2}{x^2+1}\right|=\frac{2}{x^2+1}<\frac{2}{-x+1}<\varepsilon.$$
+				                        </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_5_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <p class="button primary" id="d_5" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>
+			                            <p class="button primary" id="r_5" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_5" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+		                            <!-- 6 -->
+		                            <p id="q_6_p">
+		                                6. Prove que $\displaystyle \lim_{x\to 0+} e^{-\frac{1}{x}}=0$.
+		                            </p>
+		                            <!-- Resposta -->
+		                            	<p style="display: none; background: #eee; padding: 0.5cm " id="d_6_">
+			                                Dica:
+			                                <br />
+			                                Dado $\varepsilon>0$, basta tomar $\delta=\frac{1}{-\ln\varepsilon}>0$ (observe que como $\varepsilon$ é um número positivo bem pequeno, então $\ln \varepsilon$ é um número negativo e, consequentemente, $-\ln\varepsilon$ é positivo).
+			                            </p>
+			                            <p style="display: none; background: #eee; padding: 0.5cm " id="r_6_">
+			                                Solução:
+			                                <br />
+			                                Dado $\varepsilon>0$, basta tomar $\delta=\frac{1}{-\ln\varepsilon}>0$ (observe que como $\varepsilon$ é um número positivo bem pequeno, então $\ln \varepsilon$ é um número negativo e, consequentemente, $-\ln\varepsilon$ é positivo). De fato, se $x\in D$ e $0< x<0+\frac{1}{-\ln\varepsilon}$, então $$x<0+\frac{1}{-\ln\varepsilon}\Rightarrow -x>\frac{1}{\ln\varepsilon}\Rightarrow -\frac{1}{x}<\ln\varepsilon\Rightarrow e^{-\frac{1}{x}}< e^{\ln\varepsilon}=\varepsilon.$$ Portanto, $$\left|e^{-\frac{1}{x}}-0\right|=e^{-\frac{1}{x}}<\varepsilon.$$
+			                            </p>
+			                            <!--<p style="display: none; background: #eee; padding: 0.5cm " id="v_6_">
+			                                Em construção: videoaula
+			                            </p>-->
+			                            <p class="button primary" id="d_6" onclick="btn2(this.id)" >
+			                                DICA
+			                            </p>
+			                            <p class="button primary" id="r_6" onclick="btn2(this.id)" >
+			                                SOLUÇÃO
+			                            </p>
+			                            <!--<p class="button primary" id="v_6" onclick="btn2(this.id)" >
+			                                VIDEOAULA
+			                            </p>-->
+
+		                            
+
 
 		                            
 
