@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Atalhos de teclado</title>
+
+<script language="JavaScript">
+function press(key){
+   if(key==1){alert("Você pressionou as teclas Control+Shift+A");}
+   if(key==2){alert("Você pressionou as teclas Control+Shift+B");}
+   if(key==3){alert("Você pressionou as teclas Control+Shift+C");}
+   if(key==4){alert("Você pressionou as teclas Control+Shift+D");}
+   
+}
+
+function descobre(key){
+   alert("O código da tecla pressionada é " + key);
+}
+</script>
+</head>
+
+<body onKeyPress="press(event.keyCode)">
+<h1>Atalhos de teclado</h1>
+
+<h3>Pressione Control+Shift+A, Control+Shift+B, Control+Shift+C ou Control+Shift+D, para ter acesso a funções personalizadas.</h3>
+<p>Com este JavaScript você pode colocar atalhos de teclado em sua página.</p>
+<p>Utilize a caixa abaixo para descobrir os códigos das teclas para colocar no script. Sabendo o código da tecla desejada, é só acrescentar  "if" e configurar as funções JavaScript para ter atalhos de teclado.</p>
+<p>Funciona com tecla, shift+tecla, control+tecla (nem todas) e com control+shift+tecla</p>
+
+<input id="cmd" name="cmd" type="text" size="50" onKeyPress="descobre(event.keyCode)">
+
+</body>
+</html>
