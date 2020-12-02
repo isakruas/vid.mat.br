@@ -94,6 +94,14 @@
 											</ul>
 										</article>
 
+										<article>
+											<h3>Funções contínuas</h3>
+											<p></p>
+											<ul class="actions">
+												<li><a href="limites_de_funcoes/" class="button">Abrir</a></li>
+											</ul>
+										</article>
+
 
 
 
